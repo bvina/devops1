@@ -1,0 +1,1011 @@
+15:32:45  + curl https://core-pipeline-onboard-frm0-private-qat.canadacentral.aks.nonp.c1.rbc.com/health
+15:32:45    % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+15:32:45                                   Dload  Upload   Total   Spent    Left  Speed
+15:32:45  
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100    34  100    34    0     0    205      0 --:--:-- --:--:-- --:--:--   204
+15:32:45  {
+15:32:45    "status": "Database is up."
+15:32:45  }
+15:32:45  + env
+15:32:45  JENKINS_HOME=/var/lib/jenkins
+15:32:45  MANAGEMENT_GROUP=Platform
+15:32:45  ONBOARD_AUTH_ID=HPoCvfGU4Ijxx2LbQ
+15:32:45  TF_VAR_tfe_hostname=qat.canadacentral.tfe.nonp.c1.rbc.com
+15:32:45  HTTPS_PROXY=http://172.17.0.1:3128
+15:32:45  run_apply_only=false
+15:32:45  GIT_PREVIOUS_SUCCESSFUL_COMMIT=8d7ad4155558117c8685df451ee13bb1ccb5bf84
+15:32:45  CI=true
+15:32:45  HOSTNAME=c2ebcc8bf427
+15:32:45  RUN_CHANGES_DISPLAY_URL=https://jenkins-sai-cl1-aeo0-jenkins.apps.c1-ocp-dc1.saifg.rbc.com/job/NONP/job/Core%20Pipeline/job/Integration%20Tests/job/Module/job/terraform-azurerm-postgresql-flex-server/job/vinay-test/11/display/redirect?page=changes
+15:32:45  BRANCH=vinay-test
+15:32:45  HUDSON_URL=https://jenkins-sai-cl1-aeo0-jenkins.apps.c1-ocp-dc1.saifg.rbc.com/
+15:32:45  NODE_LABELS=AEO0_Agent AEO0_NonProd
+15:32:45  GIT_COMMIT=9116680b7537162e04bacbacf116dd3a8b990bde
+15:32:45  APP_CODE=FRM0-Shared
+15:32:45  TF_VAR_application_portfolio=ccoe
+15:32:45  TFE_PERIPHERAL_INFRASTRUCTURE_KEY_VAULT=nfrm0tfecac1
+15:32:45  HOME=/home/jenkins2
+15:32:45  NO_PROXY=localhost, 172.17.0.1, 127.0.0.*, 10.*, 192.168.*, .rbc.com,*.blob.core.windows.net
+15:32:45  BUILD_URL=https://jenkins-sai-cl1-aeo0-jenkins.apps.c1-ocp-dc1.saifg.rbc.com/job/NONP/job/Core%20Pipeline/job/Integration%20Tests/job/Module/job/terraform-azurerm-postgresql-flex-server/job/vinay-test/11/
+15:32:45  ENVIRONMENT=dev
+15:32:45  TF_VAR_branch=vinay-test
+15:32:45  JENKINS_SERVER_COOKIE=durable-0b822ce7b70f83e00c6ebc4ba0d0940d02fe00ff72c2481019612563b42df0ae
+15:32:45  API_HOSTNAME=core-pipeline-onboard-frm0-private-qat.canadacentral.aks.nonp.c1.rbc.com
+15:32:45  APP_NAME=pgserver
+15:32:45  WORKSPACE=/app/jenkins2/workspace/ostgresql-flex-server_vinay-test
+15:32:45  TF_VAR_client_id=****
+15:32:45  https_proxy=http://172.17.0.1:3128
+15:32:45  APPLY_ONLY=false
+15:32:45  ARM_CLIENT_ID=****
+15:32:45  SS_TEST_SUBSCRIPTION_ID=cd25a44d-6002-4c4e-96bf-894c0344db7e
+15:32:45  NODE_NAME=AEO0_NonProd
+15:32:45  ARM_CLIENT_SECRET=****
+15:32:45  http_proxy=http://172.17.0.1:3128
+15:32:45  RUN_ARTIFACTS_DISPLAY_URL=https://jenkins-sai-cl1-aeo0-jenkins.apps.c1-ocp-dc1.saifg.rbc.com/job/NONP/job/Core%20Pipeline/job/Integration%20Tests/job/Module/job/terraform-azurerm-postgresql-flex-server/job/vinay-test/11/display/redirect?page=artifacts
+15:32:45  GIT_BRANCH=vinay-test
+15:32:45  EXECUTOR_NUMBER=2
+15:32:45  STAGE_NAME=Test
+15:32:45  TF_VAR_TF_LOG=INFO
+15:32:45  TF_VAR_app_code=FRM0-Shared
+15:32:45  RUN_TESTS_DISPLAY_URL=https://jenkins-sai-cl1-aeo0-jenkins.apps.c1-ocp-dc1.saifg.rbc.com/job/NONP/job/Core%20Pipeline/job/Integration%20Tests/job/Module/job/terraform-azurerm-postgresql-flex-server/job/vinay-test/11/display/redirect?page=tests
+15:32:45  BUILD_DISPLAY_NAME=#11
+15:32:45  HUDSON_HOME=/var/lib/jenkins
+15:32:45  JOB_BASE_NAME=vinay-test
+15:32:45  TF_VAR_onboard_auth_id=HPoCvfGU4Ijxx2LbQ
+15:32:45  PATH=/usr/local/go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+15:32:45  REQUESTS_CA_BUNDLE=/etc/ssl/certs/ca-certificates.crt
+15:32:45  TFE_DATA_RESOURCE_GROUP_NAME=n-nonp-ccoe-frm0-tfe-qat-data-rg-cac-1
+15:32:45  TF_CLI_ARGS=-plugin-dir=/home/jenkins2/.terraform.d/plugins
+15:32:45  BUILD_ID=11
+15:32:45  CL_SUBSCRIPTION_ID=4271e2c7-639d-4b0d-82e3-32fe30b835d9
+15:32:45  GITHUB_ACCESS_TOKEN=****
+15:32:45  BUILD_TAG=jenkins-NONP-Core Pipeline-Integration Tests-Module-terraform-azurerm-postgresql-flex-server-vinay-test-11
+15:32:45  CM_SUBSCRIPTION_ID=e6cdd9cb-3b65-48e2-b83a-4191866dccc9
+15:32:45  TFE_SUBSCRIPTION_ID=****
+15:32:45  JENKINS_URL=https://jenkins-sai-cl1-aeo0-jenkins.apps.c1-ocp-dc1.saifg.rbc.com/
+15:32:45  CL_SERVICE_TIERS=e,s,n
+15:32:45  TF_VAR_app_name=pgserver
+15:32:45  TF_VAR_tenant_id=****
+15:32:45  JOB_URL=https://jenkins-sai-cl1-aeo0-jenkins.apps.c1-ocp-dc1.saifg.rbc.com/job/NONP/job/Core%20Pipeline/job/Integration%20Tests/job/Module/job/terraform-azurerm-postgresql-flex-server/job/vinay-test/
+15:32:45  GIT_URL=https://rbcgithub.fg.rbc.com/FRM0-Shared/terraform-azurerm-postgresql-flexible-server.git
+15:32:45  ARM_TENANT_ID=****
+15:32:45  TF_LOG=INFO
+15:32:45  TF_VAR_application_environment=dev
+15:32:45  TF_VAR_client_secret=****
+15:32:45  BUILD_NUMBER=11
+15:32:45  TF_VAR_application_service_tier=n
+15:32:45  JENKINS_NODE_COOKIE=c4fecf41-6960-429b-a079-d3fea8effcd2
+15:32:45  GOPATH=/home/jenkins2/go
+15:32:45  RUN_DISPLAY_URL=https://jenkins-sai-cl1-aeo0-jenkins.apps.c1-ocp-dc1.saifg.rbc.com/job/NONP/job/Core%20Pipeline/job/Integration%20Tests/job/Module/job/terraform-azurerm-postgresql-flex-server/job/vinay-test/11/display/redirect
+15:32:45  SS_SUBSCRIPTION_ID=****
+15:32:45  TF_VAR_subscription_id=e4d170ca-1efa-48fd-9c6d-e5ab911525cd
+15:32:45  HUDSON_SERVER_COOKIE=faf375cb74a7c95a
+15:32:45  TFE_PERIPHERAL_INFRASTRUCTURE_KEY_VAULT_CAE=nnonptfecae1
+15:32:45  JOB_DISPLAY_URL=https://jenkins-sai-cl1-aeo0-jenkins.apps.c1-ocp-dc1.saifg.rbc.com/job/NONP/job/Core%20Pipeline/job/Integration%20Tests/job/Module/job/terraform-azurerm-postgresql-flex-server/job/vinay-test/display/redirect
+15:32:45  TF_VAR_tfe_environment=qat
+15:32:45  CLASSPATH=
+15:32:45  AKS_SUBSCRIPTION_ID=0d92cd3c-2adb-4348-9365-d24bbc3d809b
+15:32:45  TF_VAR_tfe_service_tier=n
+15:32:45  JOB_NAME=NONP/Core Pipeline/Integration Tests/Module/terraform-azurerm-postgresql-flex-server/vinay-test
+15:32:45  ARM_SUBSCRIPTION_ID=e4d170ca-1efa-48fd-9c6d-e5ab911525cd
+15:32:45  PORTFOLIO=ccoe
+15:32:45  TF_VAR_onboard_hostname=core-pipeline-onboard-frm0-private-qat.canadacentral.aks.nonp.c1.rbc.com
+15:32:45  TF_VAR_tfe_token=zKKqKJUqh9EGfw.atlasv1.IdsjyLzSFcyBDTXzYXPwHclHCluH3LVDeWJIeNdRcUlTAhstDONhXJJzPZEyVJIcuao
+15:32:45  PWD=/app/jenkins2/workspace/ostgresql-flex-server_vinay-test/test
+15:32:45  APP_ENVIRONMENTS=dev,nonp
+15:32:45  HTTP_PROXY=http://172.17.0.1:3128
+15:32:45  GIT_PREVIOUS_COMMIT=9238dd88a582b405fb1a3f1cca2a892d0397c2dc
+15:32:45  WORKSPACE_TMP=/app/jenkins2/workspace/ostgresql-flex-server_vinay-test@tmp
+15:32:45  BRANCH_NAME=vinay-test
+15:32:45  SERVICE_TIER=n
+15:32:45  TFE_BUNDLE=2.0.2-rbc
+15:32:45  + go test -count=1 -timeout 30m -p 1
+15:33:17  
+15:33:17  
+15:33:17  
+15:33:17  	***** Terraform PLAN Phase. *****
+15:33:17  
+15:33:17  
+15:33:17  
+15:33:17  
+15:33:17  
+15:33:17  TF_LOG set as INFO
+15:33:17  
+15:33:17  
+15:33:17  TestModule 2022-08-31T19:33:12Z retry.go:91: terraform [init -upgrade=false]
+15:33:17  TestModule 2022-08-31T19:33:12Z logger.go:66: Running command terraform with args [init -upgrade=false]
+15:33:17  TestModule 2022-08-31T19:33:12Z logger.go:66: 2022-08-31T19:33:12.903Z [INFO]  Terraform version: 1.1.3
+15:33:17  TestModule 2022-08-31T19:33:12Z logger.go:66: 2022-08-31T19:33:12.903Z [INFO]  Go runtime version: go1.18.2
+15:33:17  TestModule 2022-08-31T19:33:12Z logger.go:66: 2022-08-31T19:33:12.904Z [INFO]  CLI args: []string{"terraform", "init", "-upgrade=false"}
+15:33:17  TestModule 2022-08-31T19:33:12Z logger.go:66: 2022-08-31T19:33:12.904Z [INFO]  Loading CLI configuration from ./terraform.tfrc
+15:33:17  TestModule 2022-08-31T19:33:12Z logger.go:66: 2022-08-31T19:33:12.913Z [INFO]  CLI command args: []string{"init", "-upgrade=false"}
+15:33:17  TestModule 2022-08-31T19:33:12Z logger.go:66: [0m[1mInitializing modules...[0m
+15:33:17  TestModule 2022-08-31T19:33:13Z logger.go:66: Downloading qat.canadacentral.tfe.nonp.c1.rbc.com/SHARED/common/azurerm 0.1.2 for azure_region...
+15:33:17  TestModule 2022-08-31T19:33:13Z logger.go:66: - azure_region in .terraform/modules/azure_region/modules/regions
+15:33:17  TestModule 2022-08-31T19:33:14Z logger.go:66: Downloading qat.canadacentral.tfe.nonp.c1.rbc.com/SHARED/keyvault/azurerm 1.0.14 for key_vault...
+15:33:17  TestModule 2022-08-31T19:33:14Z logger.go:66: - key_vault in .terraform/modules/key_vault
+15:33:17  TestModule 2022-08-31T19:33:14Z logger.go:66: - key_vault.keyvault-secrets in .terraform/modules/key_vault/modules/keyvault-secrets
+15:33:17  TestModule 2022-08-31T19:33:14Z logger.go:66: - postgressql-flexible-server in module
+15:33:17  TestModule 2022-08-31T19:33:14Z logger.go:66: Downloading qat.canadacentral.tfe.nonp.c1.rbc.com/SHARED/common/azurerm 0.1.2 for resource_group_data...
+15:33:17  TestModule 2022-08-31T19:33:14Z logger.go:66: - resource_group_data in .terraform/modules/resource_group_data/modules/resource_group
+15:33:17  TestModule 2022-08-31T19:33:14Z logger.go:66: Downloading qat.canadacentral.tfe.nonp.c1.rbc.com/SHARED/common/azurerm 0.1.2 for resource_group_server...
+15:33:17  TestModule 2022-08-31T19:33:14Z logger.go:66: - resource_group_server in .terraform/modules/resource_group_server/modules/resource_group
+15:33:17  TestModule 2022-08-31T19:33:14Z logger.go:66: 
+15:33:17  TestModule 2022-08-31T19:33:14Z logger.go:66: [0m[1mInitializing the backend...[0m
+15:33:17  TestModule 2022-08-31T19:33:14Z logger.go:66: 
+15:33:17  TestModule 2022-08-31T19:33:14Z logger.go:66: [0m[1mInitializing provider plugins...[0m
+15:33:17  TestModule 2022-08-31T19:33:14Z logger.go:66: - Finding latest version of hashicorp/random...
+15:33:17  TestModule 2022-08-31T19:33:14Z logger.go:66: - Finding latest version of hashicorp/azuread...
+15:33:17  TestModule 2022-08-31T19:33:14Z logger.go:66: - Finding hashicorp/azurerm versions matching "3.5.0"...
+15:33:17  TestModule 2022-08-31T19:33:14Z logger.go:66: - Finding rbc.com/api/corepipeline versions matching ">= 2.0.0, 2.0.0"...
+15:33:17  TestModule 2022-08-31T19:33:14Z logger.go:66: - Installing hashicorp/random v3.1.0...
+15:33:17  TestModule 2022-08-31T19:33:14Z logger.go:66: - Installed hashicorp/random v3.1.0 (unauthenticated)
+15:33:17  TestModule 2022-08-31T19:33:14Z logger.go:66: - Installing hashicorp/azuread v2.18.0...
+15:33:17  TestModule 2022-08-31T19:33:14Z logger.go:66: - Installed hashicorp/azuread v2.18.0 (unauthenticated)
+15:33:17  TestModule 2022-08-31T19:33:14Z logger.go:66: - Installing hashicorp/azurerm v3.5.0...
+15:33:17  TestModule 2022-08-31T19:33:15Z logger.go:66: - Installed hashicorp/azurerm v3.5.0 (unauthenticated)
+15:33:17  TestModule 2022-08-31T19:33:15Z logger.go:66: - Installing rbc.com/api/corepipeline v2.0.0...
+15:33:17  TestModule 2022-08-31T19:33:15Z logger.go:66: - Installed rbc.com/api/corepipeline v2.0.0 (unauthenticated)
+15:33:17  TestModule 2022-08-31T19:33:15Z logger.go:66: 
+15:33:17  TestModule 2022-08-31T19:33:15Z logger.go:66: Terraform has created a lock file [1m.terraform.lock.hcl[0m to record the provider
+15:33:17  TestModule 2022-08-31T19:33:15Z logger.go:66: selections it made above. Include this file in your version control repository
+15:33:17  TestModule 2022-08-31T19:33:15Z logger.go:66: so that Terraform can guarantee to make the same selections by default when
+15:33:17  TestModule 2022-08-31T19:33:15Z logger.go:66: you run "terraform init" in the future.[0m
+15:33:17  TestModule 2022-08-31T19:33:15Z logger.go:66: 
+15:33:17  TestModule 2022-08-31T19:33:15Z logger.go:66: [33m[33m╷[0m[0m
+15:33:17  TestModule 2022-08-31T19:33:15Z logger.go:66: [33m│[0m [0m[1m[33mWarning: [0m[0m[1mEmpty provider configuration blocks are not required[0m
+15:33:17  TestModule 2022-08-31T19:33:15Z logger.go:66: [33m│[0m [0m
+15:33:17  TestModule 2022-08-31T19:33:15Z logger.go:66: [33m│[0m [0m[0m  on module/main_resources.tf line 1:
+15:33:17  TestModule 2022-08-31T19:33:15Z logger.go:66: [33m│[0m [0m   1: [4mprovider "corepipeline"[0m {[0m
+15:33:17  TestModule 2022-08-31T19:33:15Z logger.go:66: [33m│[0m [0m
+15:33:17  TestModule 2022-08-31T19:33:15Z logger.go:66: [33m│[0m [0mRemove the corepipeline provider block from
+15:33:17  TestModule 2022-08-31T19:33:15Z logger.go:66: [33m│[0m [0mmodule.postgressql-flexible-server.
+15:33:17  TestModule 2022-08-31T19:33:15Z logger.go:66: [33m│[0m [0m
+15:33:17  TestModule 2022-08-31T19:33:15Z logger.go:66: [33m│[0m [0m(and 6 more similar warnings elsewhere)
+15:33:17  TestModule 2022-08-31T19:33:15Z logger.go:66: [33m╵[0m[0m
+15:33:17  TestModule 2022-08-31T19:33:15Z logger.go:66: [0m[0m
+15:33:17  TestModule 2022-08-31T19:33:15Z logger.go:66: [0m[1m[32mTerraform has been successfully initialized![0m[32m[0m
+15:33:17  TestModule 2022-08-31T19:33:15Z logger.go:66: [0m[32m
+15:33:17  TestModule 2022-08-31T19:33:15Z logger.go:66: You may now begin working with Terraform. Try running "terraform plan" to see
+15:33:17  TestModule 2022-08-31T19:33:15Z logger.go:66: any changes that are required for your infrastructure. All Terraform commands
+15:33:17  TestModule 2022-08-31T19:33:15Z logger.go:66: should now work.
+15:33:17  TestModule 2022-08-31T19:33:15Z logger.go:66: 
+15:33:17  TestModule 2022-08-31T19:33:15Z logger.go:66: If you ever set or change modules or backend configuration for Terraform,
+15:33:17  TestModule 2022-08-31T19:33:15Z logger.go:66: rerun this command to reinitialize your working directory. If you forget, other
+15:33:17  TestModule 2022-08-31T19:33:15Z logger.go:66: commands will detect it and remind you to do so if necessary.[0m
+15:33:17  TestModule 2022-08-31T19:33:15Z retry.go:91: terraform [plan -input=false -lock=false -no-color -lock=false]
+15:33:17  TestModule 2022-08-31T19:33:15Z logger.go:66: Running command terraform with args [plan -input=false -lock=false -no-color -lock=false]
+15:33:17  TestModule 2022-08-31T19:33:16Z logger.go:66: 2022-08-31T19:33:16.406Z [INFO]  Terraform version: 1.1.3
+15:33:17  TestModule 2022-08-31T19:33:16Z logger.go:66: 2022-08-31T19:33:16.406Z [INFO]  Go runtime version: go1.18.2
+15:33:17  TestModule 2022-08-31T19:33:16Z logger.go:66: 2022-08-31T19:33:16.406Z [INFO]  CLI args: []string{"terraform", "plan", "-input=false", "-lock=false", "-no-color", "-lock=false"}
+15:33:17  TestModule 2022-08-31T19:33:16Z logger.go:66: 2022-08-31T19:33:16.406Z [INFO]  Loading CLI configuration from ./terraform.tfrc
+15:33:17  TestModule 2022-08-31T19:33:16Z logger.go:66: 2022-08-31T19:33:16.415Z [INFO]  CLI command args: []string{"plan", "-input=false", "-lock=false", "-no-color", "-lock=false"}
+15:33:17  TestModule 2022-08-31T19:33:17Z logger.go:66: 2022-08-31T19:33:17.320Z [INFO]  backend/local: starting Plan operation
+15:33:17  TestModule 2022-08-31T19:33:17Z logger.go:66: 2022-08-31T19:33:17.391Z [INFO]  provider: configuring client automatic mTLS
+15:33:18  TestModule 2022-08-31T19:33:18Z logger.go:66: 2022-08-31T19:33:18.552Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: configuring server automatic mTLS: timestamp=2022-08-31T19:33:18.552Z
+15:33:18  TestModule 2022-08-31T19:33:18Z logger.go:66: 2022-08-31T19:33:18.877Z [INFO]  provider: configuring client automatic mTLS
+15:33:19  TestModule 2022-08-31T19:33:19Z logger.go:66: 2022-08-31T19:33:19.002Z [INFO]  provider.terraform-provider-random_v3.1.0_x5: configuring server automatic mTLS: timestamp=2022-08-31T19:33:18.996Z
+15:33:19  TestModule 2022-08-31T19:33:19Z logger.go:66: 2022-08-31T19:33:19.209Z [INFO]  provider: configuring client automatic mTLS
+15:33:19  TestModule 2022-08-31T19:33:19Z logger.go:66: 2022-08-31T19:33:19.352Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Resources for "Administrative Units"..: timestamp=2022-08-31T19:33:19.351Z
+15:33:19  TestModule 2022-08-31T19:33:19Z logger.go:66: 2022-08-31T19:33:19.352Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Data Sources for "Administrative Units"..: timestamp=2022-08-31T19:33:19.352Z
+15:33:19  TestModule 2022-08-31T19:33:19Z logger.go:66: 2022-08-31T19:33:19.352Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Resources for "Applications"..: timestamp=2022-08-31T19:33:19.352Z
+15:33:19  TestModule 2022-08-31T19:33:19Z logger.go:66: 2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Data Sources for "Applications"..: timestamp=2022-08-31T19:33:19.352Z
+15:33:19  TestModule 2022-08-31T19:33:19Z logger.go:66: 2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Resources for "App Role Assignments"..: timestamp=2022-08-31T19:33:19.353Z
+15:33:19  TestModule 2022-08-31T19:33:19Z logger.go:66: 2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Data Sources for "App Role Assignments"..: timestamp=2022-08-31T19:33:19.353Z
+15:33:19  TestModule 2022-08-31T19:33:19Z logger.go:66: 2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Resources for "ConditionalAccess"..: timestamp=2022-08-31T19:33:19.353Z
+15:33:19  TestModule 2022-08-31T19:33:19Z logger.go:66: 2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Data Sources for "ConditionalAccess"..: timestamp=2022-08-31T19:33:19.353Z
+15:33:19  TestModule 2022-08-31T19:33:19Z logger.go:66: 2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Resources for "Directory Roles"..: timestamp=2022-08-31T19:33:19.353Z
+15:33:19  TestModule 2022-08-31T19:33:19Z logger.go:66: 2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Data Sources for "Directory Roles"..: timestamp=2022-08-31T19:33:19.353Z
+15:33:19  TestModule 2022-08-31T19:33:19Z logger.go:66: 2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Resources for "Domains"..: timestamp=2022-08-31T19:33:19.353Z
+15:33:19  TestModule 2022-08-31T19:33:19Z logger.go:66: 2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Data Sources for "Domains"..: timestamp=2022-08-31T19:33:19.353Z
+15:33:19  TestModule 2022-08-31T19:33:19Z logger.go:66: 2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Resources for "Groups"..: timestamp=2022-08-31T19:33:19.353Z
+15:33:19  TestModule 2022-08-31T19:33:19Z logger.go:66: 2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Data Sources for "Groups"..: timestamp=2022-08-31T19:33:19.353Z
+15:33:19  TestModule 2022-08-31T19:33:19Z logger.go:66: 2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Resources for "Invitations"..: timestamp=2022-08-31T19:33:19.353Z
+15:33:19  TestModule 2022-08-31T19:33:19Z logger.go:66: 2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Data Sources for "Invitations"..: timestamp=2022-08-31T19:33:19.353Z
+15:33:19  TestModule 2022-08-31T19:33:19Z logger.go:66: 2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Resources for "Service Principals"..: timestamp=2022-08-31T19:33:19.353Z
+15:33:19  TestModule 2022-08-31T19:33:19Z logger.go:66: 2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Data Sources for "Service Principals"..: timestamp=2022-08-31T19:33:19.353Z
+15:33:19  TestModule 2022-08-31T19:33:19Z logger.go:66: 2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Resources for "Users"..: timestamp=2022-08-31T19:33:19.353Z
+15:33:19  TestModule 2022-08-31T19:33:19Z logger.go:66: 2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Data Sources for "Users"..: timestamp=2022-08-31T19:33:19.353Z
+15:33:19  TestModule 2022-08-31T19:33:19Z logger.go:66: 2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: configuring server automatic mTLS: timestamp=2022-08-31T19:33:19.354Z
+15:33:19  TestModule 2022-08-31T19:33:19Z logger.go:66: 2022-08-31T19:33:19.419Z [INFO]  provider: configuring client automatic mTLS
+15:33:20  TestModule 2022-08-31T19:33:19Z logger.go:66: 2022-08-31T19:33:19.901Z [INFO]  provider.terraform-provider-corepipeline_v2.0.0: configuring server automatic mTLS: timestamp=2022-08-31T19:33:19.898Z
+15:33:21  TestModule 2022-08-31T19:33:21Z logger.go:66: 2022-08-31T19:33:21.832Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:21  TestModule 2022-08-31T19:33:21Z logger.go:66: 2022-08-31T19:33:21.832Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:21  TestModule 2022-08-31T19:33:21Z logger.go:66: 2022-08-31T19:33:21.832Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:21  TestModule 2022-08-31T19:33:21Z logger.go:66: 2022-08-31T19:33:21.832Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:21  TestModule 2022-08-31T19:33:21Z logger.go:66: 2022-08-31T19:33:21.832Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:21  TestModule 2022-08-31T19:33:21Z logger.go:66: 2022-08-31T19:33:21.832Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:21  TestModule 2022-08-31T19:33:21Z logger.go:66: 2022-08-31T19:33:21.832Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:21  TestModule 2022-08-31T19:33:21Z logger.go:66: 2022-08-31T19:33:21.870Z [INFO]  provider: configuring client automatic mTLS
+15:33:22  TestModule 2022-08-31T19:33:22Z logger.go:66: 2022-08-31T19:33:22.004Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: configuring server automatic mTLS: timestamp=2022-08-31T19:33:21.999Z
+15:33:22  TestModule 2022-08-31T19:33:22Z logger.go:66: 2022-08-31T19:33:22.069Z [INFO]  provider: configuring client automatic mTLS
+15:33:22  TestModule 2022-08-31T19:33:22Z logger.go:66: 2022-08-31T19:33:22.248Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: configuring server automatic mTLS: timestamp=2022-08-31T19:33:22.242Z
+15:33:22  TestModule 2022-08-31T19:33:22Z logger.go:66: 2022-08-31T19:33:22.312Z [INFO]  provider: configuring client automatic mTLS
+15:33:22  TestModule 2022-08-31T19:33:22Z logger.go:66: 2022-08-31T19:33:22.363Z [INFO]  provider.terraform-provider-random_v3.1.0_x5: configuring server automatic mTLS: timestamp=2022-08-31T19:33:22.362Z
+15:33:22  TestModule 2022-08-31T19:33:22Z logger.go:66: 2022-08-31T19:33:22.605Z [INFO]  provider: configuring client automatic mTLS
+15:33:22  TestModule 2022-08-31T19:33:22Z logger.go:66: 2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Resources for "Administrative Units"..: timestamp=2022-08-31T19:33:22.648Z
+15:33:22  TestModule 2022-08-31T19:33:22Z logger.go:66: 2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Data Sources for "Administrative Units"..: timestamp=2022-08-31T19:33:22.649Z
+15:33:22  TestModule 2022-08-31T19:33:22Z logger.go:66: 2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Resources for "Applications"..: timestamp=2022-08-31T19:33:22.649Z
+15:33:22  TestModule 2022-08-31T19:33:22Z logger.go:66: 2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Data Sources for "Applications"..: timestamp=2022-08-31T19:33:22.649Z
+15:33:22  TestModule 2022-08-31T19:33:22Z logger.go:66: 2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Resources for "App Role Assignments"..: timestamp=2022-08-31T19:33:22.649Z
+15:33:22  TestModule 2022-08-31T19:33:22Z logger.go:66: 2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Data Sources for "App Role Assignments"..: timestamp=2022-08-31T19:33:22.649Z
+15:33:22  TestModule 2022-08-31T19:33:22Z logger.go:66: 2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Resources for "ConditionalAccess"..: timestamp=2022-08-31T19:33:22.649Z
+15:33:22  TestModule 2022-08-31T19:33:22Z logger.go:66: 2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Data Sources for "ConditionalAccess"..: timestamp=2022-08-31T19:33:22.649Z
+15:33:22  TestModule 2022-08-31T19:33:22Z logger.go:66: 2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Resources for "Directory Roles"..: timestamp=2022-08-31T19:33:22.649Z
+15:33:22  TestModule 2022-08-31T19:33:22Z logger.go:66: 2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Data Sources for "Directory Roles"..: timestamp=2022-08-31T19:33:22.649Z
+15:33:22  TestModule 2022-08-31T19:33:22Z logger.go:66: 2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Resources for "Domains"..: timestamp=2022-08-31T19:33:22.649Z
+15:33:22  TestModule 2022-08-31T19:33:22Z logger.go:66: 2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Data Sources for "Domains"..: timestamp=2022-08-31T19:33:22.649Z
+15:33:22  TestModule 2022-08-31T19:33:22Z logger.go:66: 2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Resources for "Groups"..: timestamp=2022-08-31T19:33:22.650Z
+15:33:22  TestModule 2022-08-31T19:33:22Z logger.go:66: 2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Data Sources for "Groups"..: timestamp=2022-08-31T19:33:22.650Z
+15:33:22  TestModule 2022-08-31T19:33:22Z logger.go:66: 2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Resources for "Invitations"..: timestamp=2022-08-31T19:33:22.650Z
+15:33:22  TestModule 2022-08-31T19:33:22Z logger.go:66: 2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Data Sources for "Invitations"..: timestamp=2022-08-31T19:33:22.650Z
+15:33:22  TestModule 2022-08-31T19:33:22Z logger.go:66: 2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Resources for "Service Principals"..: timestamp=2022-08-31T19:33:22.650Z
+15:33:22  TestModule 2022-08-31T19:33:22Z logger.go:66: 2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Data Sources for "Service Principals"..: timestamp=2022-08-31T19:33:22.650Z
+15:33:22  TestModule 2022-08-31T19:33:22Z logger.go:66: 2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Resources for "Users"..: timestamp=2022-08-31T19:33:22.650Z
+15:33:22  TestModule 2022-08-31T19:33:22Z logger.go:66: 2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Data Sources for "Users"..: timestamp=2022-08-31T19:33:22.650Z
+15:33:22  TestModule 2022-08-31T19:33:22Z logger.go:66: 2022-08-31T19:33:22.663Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: configuring server automatic mTLS: timestamp=2022-08-31T19:33:22.659Z
+15:33:22  TestModule 2022-08-31T19:33:22Z logger.go:66: 2022-08-31T19:33:22.700Z [INFO]  provider: configuring client automatic mTLS
+15:33:23  TestModule 2022-08-31T19:33:23Z logger.go:66: 2022-08-31T19:33:23.029Z [INFO]  provider.terraform-provider-corepipeline_v2.0.0: configuring server automatic mTLS: timestamp=2022-08-31T19:33:23.028Z
+15:33:25  TestModule 2022-08-31T19:33:24Z logger.go:66: 2022-08-31T19:33:24.845Z [INFO]  backend/local: plan calling Plan
+15:33:25  TestModule 2022-08-31T19:33:24Z logger.go:66: 2022-08-31T19:33:24.858Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:25  TestModule 2022-08-31T19:33:24Z logger.go:66: 2022-08-31T19:33:24.858Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:25  TestModule 2022-08-31T19:33:24Z logger.go:66: 2022-08-31T19:33:24.858Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:25  TestModule 2022-08-31T19:33:24Z logger.go:66: 2022-08-31T19:33:24.858Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:25  TestModule 2022-08-31T19:33:24Z logger.go:66: 2022-08-31T19:33:24.859Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:25  TestModule 2022-08-31T19:33:24Z logger.go:66: 2022-08-31T19:33:24.859Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:25  TestModule 2022-08-31T19:33:24Z logger.go:66: 2022-08-31T19:33:24.859Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:25  TestModule 2022-08-31T19:33:24Z logger.go:66: 2022-08-31T19:33:24.987Z [INFO]  provider: configuring client automatic mTLS
+15:33:25  TestModule 2022-08-31T19:33:25Z logger.go:66: 2022-08-31T19:33:25.149Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: configuring server automatic mTLS: timestamp=2022-08-31T19:33:25.142Z
+15:33:25  TestModule 2022-08-31T19:33:25Z logger.go:66: 2022-08-31T19:33:25.193Z [INFO]  provider: configuring client automatic mTLS
+15:33:25  TestModule 2022-08-31T19:33:25Z logger.go:66: 2022-08-31T19:33:25.285Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Resources for "Administrative Units"..: timestamp=2022-08-31T19:33:25.285Z
+15:33:25  TestModule 2022-08-31T19:33:25Z logger.go:66: 2022-08-31T19:33:25.285Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Data Sources for "Administrative Units"..: timestamp=2022-08-31T19:33:25.285Z
+15:33:25  TestModule 2022-08-31T19:33:25Z logger.go:66: 2022-08-31T19:33:25.285Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Resources for "Applications"..: timestamp=2022-08-31T19:33:25.285Z
+15:33:25  TestModule 2022-08-31T19:33:25Z logger.go:66: 2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Data Sources for "Applications"..: timestamp=2022-08-31T19:33:25.291Z
+15:33:25  TestModule 2022-08-31T19:33:25Z logger.go:66: 2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Resources for "App Role Assignments"..: timestamp=2022-08-31T19:33:25.291Z
+15:33:25  TestModule 2022-08-31T19:33:25Z logger.go:66: 2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Data Sources for "App Role Assignments"..: timestamp=2022-08-31T19:33:25.291Z
+15:33:25  TestModule 2022-08-31T19:33:25Z logger.go:66: 2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Resources for "ConditionalAccess"..: timestamp=2022-08-31T19:33:25.291Z
+15:33:25  TestModule 2022-08-31T19:33:25Z logger.go:66: 2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Data Sources for "ConditionalAccess"..: timestamp=2022-08-31T19:33:25.291Z
+15:33:25  TestModule 2022-08-31T19:33:25Z logger.go:66: 2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Resources for "Directory Roles"..: timestamp=2022-08-31T19:33:25.291Z
+15:33:25  TestModule 2022-08-31T19:33:25Z logger.go:66: 2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Data Sources for "Directory Roles"..: timestamp=2022-08-31T19:33:25.291Z
+15:33:25  TestModule 2022-08-31T19:33:25Z logger.go:66: 2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Resources for "Domains"..: timestamp=2022-08-31T19:33:25.291Z
+15:33:25  TestModule 2022-08-31T19:33:25Z logger.go:66: 2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Data Sources for "Domains"..: timestamp=2022-08-31T19:33:25.291Z
+15:33:25  TestModule 2022-08-31T19:33:25Z logger.go:66: 2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Resources for "Groups"..: timestamp=2022-08-31T19:33:25.291Z
+15:33:25  TestModule 2022-08-31T19:33:25Z logger.go:66: 2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Data Sources for "Groups"..: timestamp=2022-08-31T19:33:25.291Z
+15:33:25  TestModule 2022-08-31T19:33:25Z logger.go:66: 2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Resources for "Invitations"..: timestamp=2022-08-31T19:33:25.292Z
+15:33:25  TestModule 2022-08-31T19:33:25Z logger.go:66: 2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Data Sources for "Invitations"..: timestamp=2022-08-31T19:33:25.292Z
+15:33:25  TestModule 2022-08-31T19:33:25Z logger.go:66: 2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Resources for "Service Principals"..: timestamp=2022-08-31T19:33:25.292Z
+15:33:25  TestModule 2022-08-31T19:33:25Z logger.go:66: 2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Data Sources for "Service Principals"..: timestamp=2022-08-31T19:33:25.292Z
+15:33:25  TestModule 2022-08-31T19:33:25Z logger.go:66: 2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Resources for "Users"..: timestamp=2022-08-31T19:33:25.292Z
+15:33:25  TestModule 2022-08-31T19:33:25Z logger.go:66: 2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Data Sources for "Users"..: timestamp=2022-08-31T19:33:25.292Z
+15:33:25  TestModule 2022-08-31T19:33:25Z logger.go:66: 2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: configuring server automatic mTLS: timestamp=2022-08-31T19:33:25.292Z
+15:33:25  TestModule 2022-08-31T19:33:25Z logger.go:66: 2022-08-31T19:33:25.350Z [INFO]  provider: configuring client automatic mTLS
+15:33:25  TestModule 2022-08-31T19:33:25Z logger.go:66: 2022-08-31T19:33:25.562Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: configuring server automatic mTLS: timestamp=2022-08-31T19:33:25.562Z
+15:33:25  TestModule 2022-08-31T19:33:25Z logger.go:66: 2022-08-31T19:33:25.618Z [INFO]  provider: configuring client automatic mTLS
+15:33:25  TestModule 2022-08-31T19:33:25Z logger.go:66: 2022-08-31T19:33:25.647Z [WARN]  ValidateProviderConfig from "provider[\"registry.terraform.io/hashicorp/azurerm\"]" changed the config value, but that value is unused
+15:33:25  TestModule 2022-08-31T19:33:25Z logger.go:66: 2022-08-31T19:33:25.650Z [INFO]  provider.terraform-provider-random_v3.1.0_x5: configuring server automatic mTLS: timestamp=2022-08-31T19:33:25.649Z
+15:33:25  TestModule 2022-08-31T19:33:25Z logger.go:66: 2022-08-31T19:33:25.796Z [INFO]  provider: configuring client automatic mTLS
+15:33:25  TestModule 2022-08-31T19:33:25Z logger.go:66: 2022-08-31T19:33:25.822Z [WARN]  ValidateProviderConfig from "provider[\"registry.terraform.io/hashicorp/azuread\"]" changed the config value, but that value is unused
+15:33:26  TestModule 2022-08-31T19:33:25Z logger.go:66: 2022-08-31T19:33:25.926Z [WARN]  ValidateProviderConfig from "provider[\"registry.terraform.io/hashicorp/azurerm\"].dns_zone" changed the config value, but that value is unused
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66: 2022-08-31T19:33:26.263Z [INFO]  provider.terraform-provider-corepipeline_v2.0.0: configuring server automatic mTLS: timestamp=2022-08-31T19:33:26.262Z
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66: 2022-08-31T19:33:26.322Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: Testing if Service Principal / Client Certificate is applicable for Authentication..: timestamp=2022-08-31T19:33:26.321Z
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66: 2022-08-31T19:33:26.322Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: Testing if Multi Tenant Service Principal / Client Secret is applicable for Authentication..: timestamp=2022-08-31T19:33:26.321Z
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66: 2022-08-31T19:33:26.322Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: Testing if Service Principal / Client Secret is applicable for Authentication..: timestamp=2022-08-31T19:33:26.321Z
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66: 2022-08-31T19:33:26.322Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: Using Service Principal / Client Secret for Authentication: timestamp=2022-08-31T19:33:26.321Z
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66: 2022-08-31T19:33:26.322Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: Getting OAuth config for endpoint https://login.microsoftonline.com with  tenant ****: timestamp=2022-08-31T19:33:26.321Z
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66: 2022-08-31T19:33:26.322Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: Testing if Service Principal / Client Certificate is applicable for Authentication..: timestamp=2022-08-31T19:33:26.322Z
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66: 2022-08-31T19:33:26.322Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: Testing if Multi Tenant Service Principal / Client Secret is applicable for Authentication..: timestamp=2022-08-31T19:33:26.322Z
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66: 2022-08-31T19:33:26.322Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: Testing if Service Principal / Client Secret is applicable for Authentication..: timestamp=2022-08-31T19:33:26.322Z
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66: 2022-08-31T19:33:26.322Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: Using Service Principal / Client Secret for Authentication: timestamp=2022-08-31T19:33:26.322Z
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66: 2022-08-31T19:33:26.322Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: Getting OAuth config for endpoint https://login.microsoftonline.com with  tenant ****: timestamp=2022-08-31T19:33:26.322Z
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66: 2022-08-31T19:33:26.324Z [WARN]  ValidateProviderConfig from "provider[\"rbc.com/api/corepipeline\"]" changed the config value, but that value is unused
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66: 2022-08-31T19:33:26.326Z [WARN]  Provider "registry.terraform.io/hashicorp/random" produced an invalid plan for random_password.pgsql_administrator_password, but we are tolerating it because it is using the legacy plugin SDK.
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66:     The following problems may be the cause of any confusing errors from downstream operations:
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66:       - .lower: planned value cty.True for a non-computed attribute
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66:       - .min_special: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66:       - .min_upper: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66:       - .min_lower: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66:       - .min_numeric: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66:       - .number: planned value cty.True for a non-computed attribute
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66:       - .upper: planned value cty.True for a non-computed attribute
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66: 2022-08-31T19:33:26.326Z [WARN]  Provider "registry.terraform.io/hashicorp/random" produced an invalid plan for module.postgressql-flexible-server.random_string.string, but we are tolerating it because it is using the legacy plugin SDK.
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66:     The following problems may be the cause of any confusing errors from downstream operations:
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66:       - .lower: planned value cty.True for a non-computed attribute
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66:       - .min_numeric: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66:       - .number: planned value cty.True for a non-computed attribute
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66:       - .min_upper: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66:       - .min_lower: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66:       - .min_special: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66: 2022-08-31T19:33:26.327Z [WARN]  Provider "registry.terraform.io/hashicorp/random" produced an invalid plan for module.postgressql-flexible-server.random_string.unique-suffix, but we are tolerating it because it is using the legacy plugin SDK.
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66:     The following problems may be the cause of any confusing errors from downstream operations:
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66:       - .lower: planned value cty.True for a non-computed attribute
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66:       - .min_numeric: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66:       - .number: planned value cty.True for a non-computed attribute
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66:       - .min_upper: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66:       - .min_lower: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66:       - .min_special: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66: 2022-08-31T19:33:26.327Z [WARN]  Provider "registry.terraform.io/hashicorp/random" produced an invalid plan for module.postgressql-flexible-server.random_password.password, but we are tolerating it because it is using the legacy plugin SDK.
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66:     The following problems may be the cause of any confusing errors from downstream operations:
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66:       - .special: planned value cty.True for a non-computed attribute
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66:       - .upper: planned value cty.True for a non-computed attribute
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66:       - .number: planned value cty.True for a non-computed attribute
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66:       - .lower: planned value cty.True for a non-computed attribute
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66: 2022-08-31T19:33:26.330Z [INFO]  provider.terraform-provider-corepipeline_v2.0.0: [INFO] Provisioning new instance of Core Pipeline client,  &{ccoe frm0-shared pgserver vinay-test}
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66: 2022-08-31T19:33:26.330Z [INFO]  provider.terraform-provider-corepipeline_v2.0.0: [INFO] host url:  https://core-pipeline-onboard-frm0-private-qat.canadacentral.aks.nonp.c1.rbc.com/api/v1
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66: 2022-08-31T19:33:26.332Z [WARN]  Provider "registry.terraform.io/hashicorp/random" produced an invalid plan for random_string.string, but we are tolerating it because it is using the legacy plugin SDK.
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66:     The following problems may be the cause of any confusing errors from downstream operations:
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66:       - .min_lower: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66:       - .min_special: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66:       - .min_upper: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66:       - .lower: planned value cty.True for a non-computed attribute
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66:       - .min_numeric: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66:       - .number: planned value cty.True for a non-computed attribute
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66: 2022-08-31T19:33:26.337Z [INFO]  provider.terraform-provider-corepipeline_v2.0.0: [INFO] acquiring auth token from https://core-pipeline-onboard-frm0-private-qat.canadacentral.aks.nonp.c1.rbc.com/api/v1 /auth/HPoCvfGU4Ijxx2LbQ
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66: 2022-08-31T19:33:26.390Z [INFO]  provider.terraform-provider-corepipeline_v2.0.0: [INFO] api path:  /portfolios/ccoe/app-codes/frm0-shared/apps/frm0-shared/azure?environment=dev
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66: 2022-08-31T19:33:26.390Z [INFO]  provider.terraform-provider-corepipeline_v2.0.0: [INFO] api path:  /portfolios/ccoe/app-codes/frm0-shared/apps/frm0-shared/azure?environment=dev
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66: 2022-08-31T19:33:26.390Z [INFO]  provider.terraform-provider-corepipeline_v2.0.0: [INFO] api path:  /portfolios/ccoe/app-codes/frm0-shared/apps/frm0-shared/azure?environment=dev
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66: 2022-08-31T19:33:26.391Z [INFO]  provider.terraform-provider-corepipeline_v2.0.0: [INFO] api path:  /portfolios/ccoe/app-codes/frm0-shared/apps/frm0-shared/azure?environment=dev
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66: 2022-08-31T19:33:26.844Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: authenticated object ID cache miss, populating with: "3cbfe052-e21b-4a50-9ee3-50ed90e09c71": timestamp=2022-08-31T19:33:26.844Z
+15:33:26  TestModule 2022-08-31T19:33:26Z logger.go:66: 2022-08-31T19:33:26.844Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: Getting OAuth config for endpoint https://login.microsoftonline.com/ with  tenant ****: timestamp=2022-08-31T19:33:26.844Z
+15:33:27  TestModule 2022-08-31T19:33:26Z logger.go:66: 2022-08-31T19:33:26.927Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:26 [DEBUG] AzureAD Provider access token claims: {"aud":"https://graph.microsoft.com","iss":"https://sts.windows.net/****/","idp":"https://sts.windows.net/****/","oid":"3cbfe052-e21b-4a50-9ee3-50ed90e09c71","roles":null,"scp":"","sub":"3cbfe052-e21b-4a50-9ee3-50ed90e09c71","tenant_region_scope":"NA","tid":"****","ver":"1.0","app_displayname":"AEO0_N_Platform_Core","appid":"****","idtyp":"app"}: timestamp=2022-08-31T19:33:26.927Z
+15:33:27  TestModule 2022-08-31T19:33:27Z logger.go:66: 2022-08-31T19:33:27.012Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: authenticated object ID cache miss, populating with: "3cbfe052-e21b-4a50-9ee3-50ed90e09c71": timestamp=2022-08-31T19:33:27.009Z
+15:33:27  TestModule 2022-08-31T19:33:27Z logger.go:66: 2022-08-31T19:33:27.012Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: Getting OAuth config for endpoint https://login.microsoftonline.com/ with  tenant ****: timestamp=2022-08-31T19:33:27.009Z
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.430Z [INFO]  ReferenceTransformer: reference not found: "var.location"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.430Z [INFO]  ReferenceTransformer: reference not found: "local.resource_group_name"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.430Z [INFO]  ReferenceTransformer: reference not found: "local.default_tags"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.430Z [INFO]  ReferenceTransformer: reference not found: "var.extra_tags"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.431Z [INFO]  ReferenceTransformer: reference not found: "local.default_tags"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.431Z [INFO]  ReferenceTransformer: reference not found: "var.extra_tags"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.431Z [INFO]  ReferenceTransformer: reference not found: "var.location"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.431Z [INFO]  ReferenceTransformer: reference not found: "local.resource_group_name"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.432Z [INFO]  ReferenceTransformer: reference not found: "var.leaf_resources"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.432Z [INFO]  ReferenceTransformer: reference not found: "var.leaf_resources"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.433Z [INFO]  ReferenceTransformer: reference not found: "var.leaf_resources"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.433Z [INFO]  ReferenceTransformer: reference not found: "var.leaf_resources"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.433Z [INFO]  ReferenceTransformer: reference not found: "var.leaf_resources"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.433Z [INFO]  ReferenceTransformer: reference not found: "var.leaf_resources"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.433Z [INFO]  ReferenceTransformer: reference not found: "var.leaf_resources"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.444Z [INFO]  ReferenceTransformer: reference not found: "var.resource_group_name"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.447Z [WARN]  Provider "registry.terraform.io/hashicorp/random" produced an invalid plan for module.key_vault.random_string.string, but we are tolerating it because it is using the legacy plugin SDK.
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66:     The following problems may be the cause of any confusing errors from downstream operations:
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66:       - .min_lower: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66:       - .min_special: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66:       - .min_upper: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66:       - .lower: planned value cty.True for a non-computed attribute
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66:       - .min_numeric: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66:       - .number: planned value cty.True for a non-computed attribute
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.448Z [INFO]  ReferenceTransformer: reference not found: "local.private_endpoint_subnet_name"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.448Z [INFO]  ReferenceTransformer: reference not found: "var.virtual_network_resource_group_name"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.448Z [INFO]  ReferenceTransformer: reference not found: "var.virtual_network_name"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.454Z [INFO]  ReferenceTransformer: reference not found: "local.key_vault_name"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.454Z [INFO]  ReferenceTransformer: reference not found: "var.sku"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.454Z [INFO]  ReferenceTransformer: reference not found: "local.tags"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.454Z [INFO]  ReferenceTransformer: reference not found: "var.location"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.454Z [INFO]  ReferenceTransformer: reference not found: "var.network_acls_enabled"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.454Z [INFO]  ReferenceTransformer: reference not found: "local.public_ip_allowlist"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.454Z [INFO]  ReferenceTransformer: reference not found: "var.whitelist_subnet_ids"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.454Z [INFO]  ReferenceTransformer: reference not found: "local.default_aks_subnet_ids"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.454Z [INFO]  ReferenceTransformer: reference not found: "local.default_tfe_subnet_ids"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.662Z [INFO]  ReferenceTransformer: reference not found: "local.resource_group_name"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.662Z [INFO]  ReferenceTransformer: reference not found: "local.key_vault_private_endpoint_name"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.662Z [INFO]  ReferenceTransformer: reference not found: "var.location"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.662Z [INFO]  ReferenceTransformer: reference not found: "local.key_vault_id"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.662Z [INFO]  ReferenceTransformer: reference not found: "local.key_vault_name"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.663Z [ERROR] vertex "module.postgressql-flexible-server.data.azurerm_resource_group.postresql_resource_group" error: Error: Resource Group "n-dev-ccoe-frm0-shared-pgserver-pg-server-cac-1" was not found
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.663Z [ERROR] vertex "module.postgressql-flexible-server.data.azurerm_resource_group.postresql_resource_group" error: Error: Resource Group "n-dev-ccoe-frm0-shared-pgserver-pg-server-cac-1" was not found
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.663Z [ERROR] vertex "module.postgressql-flexible-server.data.azurerm_resource_group.postresql_resource_group (expand)" error: Error: Resource Group "n-dev-ccoe-frm0-shared-pgserver-pg-server-cac-1" was not found
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "var.managed_identity_access_policy"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "local.key_vault_id"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "var.managed_identity_access_policy"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "var.managed_identity_access_policy"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "var.managed_identity_access_policy"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "var.user_access_policies"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "var.user_access_policies"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "var.user_access_policies"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "local.key_vault_id"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "var.user_access_policies"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "var.user_access_policies"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "var.user_access_policies"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "var.user_access_policies"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "var.user_access_policies"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "var.user_access_policies"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "var.user_access_policies"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "local.key_vault_id"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.667Z [INFO]  ReferenceTransformer: reference not found: "var.private_dns_zone_resource_group_name"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.667Z [INFO]  ReferenceTransformer: reference not found: "local.private_dns_zone_resource_group_name"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.667Z [INFO]  ReferenceTransformer: reference not found: "var.private_dns_zone_resource_group_name"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.667Z [INFO]  ReferenceTransformer: reference not found: "local.key_vault_name"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.667Z [INFO]  ReferenceTransformer: reference not found: "var.private_dns_zone_name"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.667Z [INFO]  ReferenceTransformer: reference not found: "local.private_dns_zone_name"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.667Z [INFO]  ReferenceTransformer: reference not found: "var.private_dns_zone_name"
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.670Z [WARN]  Provider "registry.terraform.io/hashicorp/azurerm" produced an invalid plan for module.key_vault.azurerm_private_dns_a_record.keyvault, but we are tolerating it because it is using the legacy plugin SDK.
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66:     The following problems may be the cause of any confusing errors from downstream operations:
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66:       - .records: planned value cty.UnknownVal(cty.Set(cty.String)) does not match config value cty.SetVal([]cty.Value{cty.UnknownVal(cty.String)})
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.717Z [ERROR] vertex "module.postgressql-flexible-server.data.azurerm_resource_group.data_resource_group" error: Error: Resource Group "n-dev-ccoe-frm0-shared-pgserver-pg-data-rg-cac-1" was not found
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.717Z [ERROR] vertex "module.postgressql-flexible-server.data.azurerm_resource_group.data_resource_group" error: Error: Resource Group "n-dev-ccoe-frm0-shared-pgserver-pg-data-rg-cac-1" was not found
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.717Z [ERROR] vertex "module.postgressql-flexible-server.data.azurerm_resource_group.data_resource_group (expand)" error: Error: Resource Group "n-dev-ccoe-frm0-shared-pgserver-pg-data-rg-cac-1" was not found
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 2022-08-31T19:33:35.774Z [INFO]  backend/local: plan operation completed
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: Warning: Empty provider configuration blocks are not required
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66:   on module/main_resources.tf line 1:
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66:    1: provider "corepipeline" {
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: Remove the corepipeline provider block from
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: module.postgressql-flexible-server.
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: (and 6 more similar warnings elsewhere)
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: Error: Error: Resource Group "n-dev-ccoe-frm0-shared-pgserver-pg-server-cac-1" was not found
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66:   with module.postgressql-flexible-server.data.azurerm_resource_group.postresql_resource_group,
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66:   on module/main_resources.tf line 20, in data "azurerm_resource_group" "postresql_resource_group":
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66:   20: data "azurerm_resource_group" "postresql_resource_group" {
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: Error: Error: Resource Group "n-dev-ccoe-frm0-shared-pgserver-pg-data-rg-cac-1" was not found
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66:   with module.postgressql-flexible-server.data.azurerm_resource_group.data_resource_group,
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66:   on module/main_resources.tf line 23, in data "azurerm_resource_group" "data_resource_group":
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66:   23: data "azurerm_resource_group" "data_resource_group" {
+15:33:37  TestModule 2022-08-31T19:33:35Z logger.go:66: 
+15:33:37  TestModule 2022-08-31T19:33:36Z retry.go:99: Returning due to fatal error: FatalError{Underlying: error while running command: exit status 1; 2022-08-31T19:33:16.406Z [INFO]  Terraform version: 1.1.3
+15:33:37  2022-08-31T19:33:16.406Z [INFO]  Go runtime version: go1.18.2
+15:33:37  2022-08-31T19:33:16.406Z [INFO]  CLI args: []string{"terraform", "plan", "-input=false", "-lock=false", "-no-color", "-lock=false"}
+15:33:37  2022-08-31T19:33:16.406Z [INFO]  Loading CLI configuration from ./terraform.tfrc
+15:33:37  2022-08-31T19:33:16.415Z [INFO]  CLI command args: []string{"plan", "-input=false", "-lock=false", "-no-color", "-lock=false"}
+15:33:37  2022-08-31T19:33:17.320Z [INFO]  backend/local: starting Plan operation
+15:33:37  2022-08-31T19:33:17.391Z [INFO]  provider: configuring client automatic mTLS
+15:33:37  2022-08-31T19:33:18.552Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: configuring server automatic mTLS: timestamp=2022-08-31T19:33:18.552Z
+15:33:37  2022-08-31T19:33:18.877Z [INFO]  provider: configuring client automatic mTLS
+15:33:37  2022-08-31T19:33:19.002Z [INFO]  provider.terraform-provider-random_v3.1.0_x5: configuring server automatic mTLS: timestamp=2022-08-31T19:33:18.996Z
+15:33:37  2022-08-31T19:33:19.209Z [INFO]  provider: configuring client automatic mTLS
+15:33:37  2022-08-31T19:33:19.352Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Resources for "Administrative Units"..: timestamp=2022-08-31T19:33:19.351Z
+15:33:37  2022-08-31T19:33:19.352Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Data Sources for "Administrative Units"..: timestamp=2022-08-31T19:33:19.352Z
+15:33:37  2022-08-31T19:33:19.352Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Resources for "Applications"..: timestamp=2022-08-31T19:33:19.352Z
+15:33:37  2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Data Sources for "Applications"..: timestamp=2022-08-31T19:33:19.352Z
+15:33:37  2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Resources for "App Role Assignments"..: timestamp=2022-08-31T19:33:19.353Z
+15:33:37  2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Data Sources for "App Role Assignments"..: timestamp=2022-08-31T19:33:19.353Z
+15:33:37  2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Resources for "ConditionalAccess"..: timestamp=2022-08-31T19:33:19.353Z
+15:33:37  2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Data Sources for "ConditionalAccess"..: timestamp=2022-08-31T19:33:19.353Z
+15:33:37  2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Resources for "Directory Roles"..: timestamp=2022-08-31T19:33:19.353Z
+15:33:37  2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Data Sources for "Directory Roles"..: timestamp=2022-08-31T19:33:19.353Z
+15:33:37  2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Resources for "Domains"..: timestamp=2022-08-31T19:33:19.353Z
+15:33:37  2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Data Sources for "Domains"..: timestamp=2022-08-31T19:33:19.353Z
+15:33:37  2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Resources for "Groups"..: timestamp=2022-08-31T19:33:19.353Z
+15:33:37  2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Data Sources for "Groups"..: timestamp=2022-08-31T19:33:19.353Z
+15:33:37  2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Resources for "Invitations"..: timestamp=2022-08-31T19:33:19.353Z
+15:33:37  2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Data Sources for "Invitations"..: timestamp=2022-08-31T19:33:19.353Z
+15:33:37  2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Resources for "Service Principals"..: timestamp=2022-08-31T19:33:19.353Z
+15:33:37  2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Data Sources for "Service Principals"..: timestamp=2022-08-31T19:33:19.353Z
+15:33:37  2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Resources for "Users"..: timestamp=2022-08-31T19:33:19.353Z
+15:33:37  2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Data Sources for "Users"..: timestamp=2022-08-31T19:33:19.353Z
+15:33:37  2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: configuring server automatic mTLS: timestamp=2022-08-31T19:33:19.354Z
+15:33:37  2022-08-31T19:33:19.419Z [INFO]  provider: configuring client automatic mTLS
+15:33:37  2022-08-31T19:33:19.901Z [INFO]  provider.terraform-provider-corepipeline_v2.0.0: configuring server automatic mTLS: timestamp=2022-08-31T19:33:19.898Z
+15:33:37  2022-08-31T19:33:21.832Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:37  2022-08-31T19:33:21.832Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:37  2022-08-31T19:33:21.832Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:37  2022-08-31T19:33:21.832Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:37  2022-08-31T19:33:21.832Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:37  2022-08-31T19:33:21.832Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:37  2022-08-31T19:33:21.832Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:37  2022-08-31T19:33:21.870Z [INFO]  provider: configuring client automatic mTLS
+15:33:37  2022-08-31T19:33:22.004Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: configuring server automatic mTLS: timestamp=2022-08-31T19:33:21.999Z
+15:33:37  2022-08-31T19:33:22.069Z [INFO]  provider: configuring client automatic mTLS
+15:33:37  2022-08-31T19:33:22.248Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: configuring server automatic mTLS: timestamp=2022-08-31T19:33:22.242Z
+15:33:37  2022-08-31T19:33:22.312Z [INFO]  provider: configuring client automatic mTLS
+15:33:37  2022-08-31T19:33:22.363Z [INFO]  provider.terraform-provider-random_v3.1.0_x5: configuring server automatic mTLS: timestamp=2022-08-31T19:33:22.362Z
+15:33:37  2022-08-31T19:33:22.605Z [INFO]  provider: configuring client automatic mTLS
+15:33:37  2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Resources for "Administrative Units"..: timestamp=2022-08-31T19:33:22.648Z
+15:33:37  2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Data Sources for "Administrative Units"..: timestamp=2022-08-31T19:33:22.649Z
+15:33:37  2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Resources for "Applications"..: timestamp=2022-08-31T19:33:22.649Z
+15:33:37  2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Data Sources for "Applications"..: timestamp=2022-08-31T19:33:22.649Z
+15:33:37  2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Resources for "App Role Assignments"..: timestamp=2022-08-31T19:33:22.649Z
+15:33:37  2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Data Sources for "App Role Assignments"..: timestamp=2022-08-31T19:33:22.649Z
+15:33:37  2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Resources for "ConditionalAccess"..: timestamp=2022-08-31T19:33:22.649Z
+15:33:37  2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Data Sources for "ConditionalAccess"..: timestamp=2022-08-31T19:33:22.649Z
+15:33:37  2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Resources for "Directory Roles"..: timestamp=2022-08-31T19:33:22.649Z
+15:33:37  2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Data Sources for "Directory Roles"..: timestamp=2022-08-31T19:33:22.649Z
+15:33:37  2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Resources for "Domains"..: timestamp=2022-08-31T19:33:22.649Z
+15:33:37  2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Data Sources for "Domains"..: timestamp=2022-08-31T19:33:22.649Z
+15:33:37  2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Resources for "Groups"..: timestamp=2022-08-31T19:33:22.650Z
+15:33:37  2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Data Sources for "Groups"..: timestamp=2022-08-31T19:33:22.650Z
+15:33:37  2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Resources for "Invitations"..: timestamp=2022-08-31T19:33:22.650Z
+15:33:37  2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Data Sources for "Invitations"..: timestamp=2022-08-31T19:33:22.650Z
+15:33:37  2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Resources for "Service Principals"..: timestamp=2022-08-31T19:33:22.650Z
+15:33:37  2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Data Sources for "Service Principals"..: timestamp=2022-08-31T19:33:22.650Z
+15:33:37  2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Resources for "Users"..: timestamp=2022-08-31T19:33:22.650Z
+15:33:37  2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Data Sources for "Users"..: timestamp=2022-08-31T19:33:22.650Z
+15:33:37  2022-08-31T19:33:22.663Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: configuring server automatic mTLS: timestamp=2022-08-31T19:33:22.659Z
+15:33:37  2022-08-31T19:33:22.700Z [INFO]  provider: configuring client automatic mTLS
+15:33:37  2022-08-31T19:33:23.029Z [INFO]  provider.terraform-provider-corepipeline_v2.0.0: configuring server automatic mTLS: timestamp=2022-08-31T19:33:23.028Z
+15:33:37  2022-08-31T19:33:24.845Z [INFO]  backend/local: plan calling Plan
+15:33:37  2022-08-31T19:33:24.858Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:37  2022-08-31T19:33:24.858Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:37  2022-08-31T19:33:24.858Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:37  2022-08-31T19:33:24.858Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:37  2022-08-31T19:33:24.859Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:37  2022-08-31T19:33:24.859Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:37  2022-08-31T19:33:24.859Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:37  2022-08-31T19:33:24.987Z [INFO]  provider: configuring client automatic mTLS
+15:33:37  2022-08-31T19:33:25.149Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: configuring server automatic mTLS: timestamp=2022-08-31T19:33:25.142Z
+15:33:37  2022-08-31T19:33:25.193Z [INFO]  provider: configuring client automatic mTLS
+15:33:37  2022-08-31T19:33:25.285Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Resources for "Administrative Units"..: timestamp=2022-08-31T19:33:25.285Z
+15:33:37  2022-08-31T19:33:25.285Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Data Sources for "Administrative Units"..: timestamp=2022-08-31T19:33:25.285Z
+15:33:37  2022-08-31T19:33:25.285Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Resources for "Applications"..: timestamp=2022-08-31T19:33:25.285Z
+15:33:37  2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Data Sources for "Applications"..: timestamp=2022-08-31T19:33:25.291Z
+15:33:37  2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Resources for "App Role Assignments"..: timestamp=2022-08-31T19:33:25.291Z
+15:33:37  2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Data Sources for "App Role Assignments"..: timestamp=2022-08-31T19:33:25.291Z
+15:33:37  2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Resources for "ConditionalAccess"..: timestamp=2022-08-31T19:33:25.291Z
+15:33:37  2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Data Sources for "ConditionalAccess"..: timestamp=2022-08-31T19:33:25.291Z
+15:33:37  2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Resources for "Directory Roles"..: timestamp=2022-08-31T19:33:25.291Z
+15:33:37  2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Data Sources for "Directory Roles"..: timestamp=2022-08-31T19:33:25.291Z
+15:33:37  2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Resources for "Domains"..: timestamp=2022-08-31T19:33:25.291Z
+15:33:37  2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Data Sources for "Domains"..: timestamp=2022-08-31T19:33:25.291Z
+15:33:37  2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Resources for "Groups"..: timestamp=2022-08-31T19:33:25.291Z
+15:33:37  2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Data Sources for "Groups"..: timestamp=2022-08-31T19:33:25.291Z
+15:33:37  2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Resources for "Invitations"..: timestamp=2022-08-31T19:33:25.292Z
+15:33:37  2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Data Sources for "Invitations"..: timestamp=2022-08-31T19:33:25.292Z
+15:33:37  2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Resources for "Service Principals"..: timestamp=2022-08-31T19:33:25.292Z
+15:33:37  2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Data Sources for "Service Principals"..: timestamp=2022-08-31T19:33:25.292Z
+15:33:37  2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Resources for "Users"..: timestamp=2022-08-31T19:33:25.292Z
+15:33:37  2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Data Sources for "Users"..: timestamp=2022-08-31T19:33:25.292Z
+15:33:37  2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: configuring server automatic mTLS: timestamp=2022-08-31T19:33:25.292Z
+15:33:37  2022-08-31T19:33:25.350Z [INFO]  provider: configuring client automatic mTLS
+15:33:37  2022-08-31T19:33:25.562Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: configuring server automatic mTLS: timestamp=2022-08-31T19:33:25.562Z
+15:33:37  2022-08-31T19:33:25.618Z [INFO]  provider: configuring client automatic mTLS
+15:33:37  2022-08-31T19:33:25.647Z [WARN]  ValidateProviderConfig from "provider[\"registry.terraform.io/hashicorp/azurerm\"]" changed the config value, but that value is unused
+15:33:37  2022-08-31T19:33:25.650Z [INFO]  provider.terraform-provider-random_v3.1.0_x5: configuring server automatic mTLS: timestamp=2022-08-31T19:33:25.649Z
+15:33:37  2022-08-31T19:33:25.796Z [INFO]  provider: configuring client automatic mTLS
+15:33:37  2022-08-31T19:33:25.822Z [WARN]  ValidateProviderConfig from "provider[\"registry.terraform.io/hashicorp/azuread\"]" changed the config value, but that value is unused
+15:33:37  2022-08-31T19:33:25.926Z [WARN]  ValidateProviderConfig from "provider[\"registry.terraform.io/hashicorp/azurerm\"].dns_zone" changed the config value, but that value is unused
+15:33:37  2022-08-31T19:33:26.263Z [INFO]  provider.terraform-provider-corepipeline_v2.0.0: configuring server automatic mTLS: timestamp=2022-08-31T19:33:26.262Z
+15:33:37  2022-08-31T19:33:26.322Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: Testing if Service Principal / Client Certificate is applicable for Authentication..: timestamp=2022-08-31T19:33:26.321Z
+15:33:37  2022-08-31T19:33:26.322Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: Testing if Multi Tenant Service Principal / Client Secret is applicable for Authentication..: timestamp=2022-08-31T19:33:26.321Z
+15:33:37  2022-08-31T19:33:26.322Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: Testing if Service Principal / Client Secret is applicable for Authentication..: timestamp=2022-08-31T19:33:26.321Z
+15:33:37  2022-08-31T19:33:26.322Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: Using Service Principal / Client Secret for Authentication: timestamp=2022-08-31T19:33:26.321Z
+15:33:37  2022-08-31T19:33:26.322Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: Getting OAuth config for endpoint https://login.microsoftonline.com with  tenant ****: timestamp=2022-08-31T19:33:26.321Z
+15:33:37  2022-08-31T19:33:26.322Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: Testing if Service Principal / Client Certificate is applicable for Authentication..: timestamp=2022-08-31T19:33:26.322Z
+15:33:37  2022-08-31T19:33:26.322Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: Testing if Multi Tenant Service Principal / Client Secret is applicable for Authentication..: timestamp=2022-08-31T19:33:26.322Z
+15:33:37  2022-08-31T19:33:26.322Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: Testing if Service Principal / Client Secret is applicable for Authentication..: timestamp=2022-08-31T19:33:26.322Z
+15:33:37  2022-08-31T19:33:26.322Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: Using Service Principal / Client Secret for Authentication: timestamp=2022-08-31T19:33:26.322Z
+15:33:37  2022-08-31T19:33:26.322Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: Getting OAuth config for endpoint https://login.microsoftonline.com with  tenant ****: timestamp=2022-08-31T19:33:26.322Z
+15:33:37  2022-08-31T19:33:26.324Z [WARN]  ValidateProviderConfig from "provider[\"rbc.com/api/corepipeline\"]" changed the config value, but that value is unused
+15:33:37  2022-08-31T19:33:26.326Z [WARN]  Provider "registry.terraform.io/hashicorp/random" produced an invalid plan for random_password.pgsql_administrator_password, but we are tolerating it because it is using the legacy plugin SDK.
+15:33:37      The following problems may be the cause of any confusing errors from downstream operations:
+15:33:37        - .lower: planned value cty.True for a non-computed attribute
+15:33:37        - .min_special: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:37        - .min_upper: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:37        - .min_lower: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:37        - .min_numeric: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:37        - .number: planned value cty.True for a non-computed attribute
+15:33:37        - .upper: planned value cty.True for a non-computed attribute
+15:33:37  2022-08-31T19:33:26.326Z [WARN]  Provider "registry.terraform.io/hashicorp/random" produced an invalid plan for module.postgressql-flexible-server.random_string.string, but we are tolerating it because it is using the legacy plugin SDK.
+15:33:37      The following problems may be the cause of any confusing errors from downstream operations:
+15:33:37        - .lower: planned value cty.True for a non-computed attribute
+15:33:37        - .min_numeric: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:37        - .number: planned value cty.True for a non-computed attribute
+15:33:37        - .min_upper: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:37        - .min_lower: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:37        - .min_special: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:37  2022-08-31T19:33:26.327Z [WARN]  Provider "registry.terraform.io/hashicorp/random" produced an invalid plan for module.postgressql-flexible-server.random_string.unique-suffix, but we are tolerating it because it is using the legacy plugin SDK.
+15:33:37      The following problems may be the cause of any confusing errors from downstream operations:
+15:33:37        - .lower: planned value cty.True for a non-computed attribute
+15:33:37        - .min_numeric: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:37        - .number: planned value cty.True for a non-computed attribute
+15:33:37        - .min_upper: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:37        - .min_lower: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:37        - .min_special: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:37  2022-08-31T19:33:26.327Z [WARN]  Provider "registry.terraform.io/hashicorp/random" produced an invalid plan for module.postgressql-flexible-server.random_password.password, but we are tolerating it because it is using the legacy plugin SDK.
+15:33:37      The following problems may be the cause of any confusing errors from downstream operations:
+15:33:37        - .special: planned value cty.True for a non-computed attribute
+15:33:37        - .upper: planned value cty.True for a non-computed attribute
+15:33:37        - .number: planned value cty.True for a non-computed attribute
+15:33:37        - .lower: planned value cty.True for a non-computed attribute
+15:33:37  2022-08-31T19:33:26.330Z [INFO]  provider.terraform-provider-corepipeline_v2.0.0: [INFO] Provisioning new instance of Core Pipeline client,  &{ccoe frm0-shared pgserver vinay-test}
+15:33:37  2022-08-31T19:33:26.330Z [INFO]  provider.terraform-provider-corepipeline_v2.0.0: [INFO] host url:  https://core-pipeline-onboard-frm0-private-qat.canadacentral.aks.nonp.c1.rbc.com/api/v1
+15:33:37  2022-08-31T19:33:26.332Z [WARN]  Provider "registry.terraform.io/hashicorp/random" produced an invalid plan for random_string.string, but we are tolerating it because it is using the legacy plugin SDK.
+15:33:37      The following problems may be the cause of any confusing errors from downstream operations:
+15:33:37        - .min_lower: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:37        - .min_special: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:37        - .min_upper: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:37        - .lower: planned value cty.True for a non-computed attribute
+15:33:37        - .min_numeric: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:37        - .number: planned value cty.True for a non-computed attribute
+15:33:37  2022-08-31T19:33:26.337Z [INFO]  provider.terraform-provider-corepipeline_v2.0.0: [INFO] acquiring auth token from https://core-pipeline-onboard-frm0-private-qat.canadacentral.aks.nonp.c1.rbc.com/api/v1 /auth/HPoCvfGU4Ijxx2LbQ
+15:33:37  2022-08-31T19:33:26.390Z [INFO]  provider.terraform-provider-corepipeline_v2.0.0: [INFO] api path:  /portfolios/ccoe/app-codes/frm0-shared/apps/frm0-shared/azure?environment=dev
+15:33:37  2022-08-31T19:33:26.390Z [INFO]  provider.terraform-provider-corepipeline_v2.0.0: [INFO] api path:  /portfolios/ccoe/app-codes/frm0-shared/apps/frm0-shared/azure?environment=dev
+15:33:37  2022-08-31T19:33:26.390Z [INFO]  provider.terraform-provider-corepipeline_v2.0.0: [INFO] api path:  /portfolios/ccoe/app-codes/frm0-shared/apps/frm0-shared/azure?environment=dev
+15:33:37  2022-08-31T19:33:26.391Z [INFO]  provider.terraform-provider-corepipeline_v2.0.0: [INFO] api path:  /portfolios/ccoe/app-codes/frm0-shared/apps/frm0-shared/azure?environment=dev
+15:33:37  2022-08-31T19:33:26.844Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: authenticated object ID cache miss, populating with: "3cbfe052-e21b-4a50-9ee3-50ed90e09c71": timestamp=2022-08-31T19:33:26.844Z
+15:33:37  2022-08-31T19:33:26.844Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: Getting OAuth config for endpoint https://login.microsoftonline.com/ with  tenant ****: timestamp=2022-08-31T19:33:26.844Z
+15:33:37  2022-08-31T19:33:26.927Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:26 [DEBUG] AzureAD Provider access token claims: {"aud":"https://graph.microsoft.com","iss":"https://sts.windows.net/****/","idp":"https://sts.windows.net/****/","oid":"3cbfe052-e21b-4a50-9ee3-50ed90e09c71","roles":null,"scp":"","sub":"3cbfe052-e21b-4a50-9ee3-50ed90e09c71","tenant_region_scope":"NA","tid":"****","ver":"1.0","app_displayname":"AEO0_N_Platform_Core","appid":"****","idtyp":"app"}: timestamp=2022-08-31T19:33:26.927Z
+15:33:37  2022-08-31T19:33:27.012Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: authenticated object ID cache miss, populating with: "3cbfe052-e21b-4a50-9ee3-50ed90e09c71": timestamp=2022-08-31T19:33:27.009Z
+15:33:37  2022-08-31T19:33:27.012Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: Getting OAuth config for endpoint https://login.microsoftonline.com/ with  tenant ****: timestamp=2022-08-31T19:33:27.009Z
+15:33:37  2022-08-31T19:33:35.430Z [INFO]  ReferenceTransformer: reference not found: "var.location"
+15:33:37  2022-08-31T19:33:35.430Z [INFO]  ReferenceTransformer: reference not found: "local.resource_group_name"
+15:33:37  2022-08-31T19:33:35.430Z [INFO]  ReferenceTransformer: reference not found: "local.default_tags"
+15:33:37  2022-08-31T19:33:35.430Z [INFO]  ReferenceTransformer: reference not found: "var.extra_tags"
+15:33:37  2022-08-31T19:33:35.431Z [INFO]  ReferenceTransformer: reference not found: "local.default_tags"
+15:33:37  2022-08-31T19:33:35.431Z [INFO]  ReferenceTransformer: reference not found: "var.extra_tags"
+15:33:37  2022-08-31T19:33:35.431Z [INFO]  ReferenceTransformer: reference not found: "var.location"
+15:33:37  2022-08-31T19:33:35.431Z [INFO]  ReferenceTransformer: reference not found: "local.resource_group_name"
+15:33:37  2022-08-31T19:33:35.432Z [INFO]  ReferenceTransformer: reference not found: "var.leaf_resources"
+15:33:37  2022-08-31T19:33:35.432Z [INFO]  ReferenceTransformer: reference not found: "var.leaf_resources"
+15:33:37  2022-08-31T19:33:35.433Z [INFO]  ReferenceTransformer: reference not found: "var.leaf_resources"
+15:33:37  2022-08-31T19:33:35.433Z [INFO]  ReferenceTransformer: reference not found: "var.leaf_resources"
+15:33:37  2022-08-31T19:33:35.433Z [INFO]  ReferenceTransformer: reference not found: "var.leaf_resources"
+15:33:37  2022-08-31T19:33:35.433Z [INFO]  ReferenceTransformer: reference not found: "var.leaf_resources"
+15:33:37  2022-08-31T19:33:35.433Z [INFO]  ReferenceTransformer: reference not found: "var.leaf_resources"
+15:33:37  2022-08-31T19:33:35.444Z [INFO]  ReferenceTransformer: reference not found: "var.resource_group_name"
+15:33:37  2022-08-31T19:33:35.447Z [WARN]  Provider "registry.terraform.io/hashicorp/random" produced an invalid plan for module.key_vault.random_string.string, but we are tolerating it because it is using the legacy plugin SDK.
+15:33:37      The following problems may be the cause of any confusing errors from downstream operations:
+15:33:37        - .min_lower: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:37        - .min_special: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:37        - .min_upper: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:37        - .lower: planned value cty.True for a non-computed attribute
+15:33:37        - .min_numeric: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:37        - .number: planned value cty.True for a non-computed attribute
+15:33:37  2022-08-31T19:33:35.448Z [INFO]  ReferenceTransformer: reference not found: "local.private_endpoint_subnet_name"
+15:33:37  2022-08-31T19:33:35.448Z [INFO]  ReferenceTransformer: reference not found: "var.virtual_network_resource_group_name"
+15:33:37  2022-08-31T19:33:35.448Z [INFO]  ReferenceTransformer: reference not found: "var.virtual_network_name"
+15:33:37  2022-08-31T19:33:35.454Z [INFO]  ReferenceTransformer: reference not found: "local.key_vault_name"
+15:33:37  2022-08-31T19:33:35.454Z [INFO]  ReferenceTransformer: reference not found: "var.sku"
+15:33:37  2022-08-31T19:33:35.454Z [INFO]  ReferenceTransformer: reference not found: "local.tags"
+15:33:37  2022-08-31T19:33:35.454Z [INFO]  ReferenceTransformer: reference not found: "var.location"
+15:33:37  2022-08-31T19:33:35.454Z [INFO]  ReferenceTransformer: reference not found: "var.network_acls_enabled"
+15:33:37  2022-08-31T19:33:35.454Z [INFO]  ReferenceTransformer: reference not found: "local.public_ip_allowlist"
+15:33:37  2022-08-31T19:33:35.454Z [INFO]  ReferenceTransformer: reference not found: "var.whitelist_subnet_ids"
+15:33:37  2022-08-31T19:33:35.454Z [INFO]  ReferenceTransformer: reference not found: "local.default_aks_subnet_ids"
+15:33:37  2022-08-31T19:33:35.454Z [INFO]  ReferenceTransformer: reference not found: "local.default_tfe_subnet_ids"
+15:33:37  2022-08-31T19:33:35.662Z [INFO]  ReferenceTransformer: reference not found: "local.resource_group_name"
+15:33:37  2022-08-31T19:33:35.662Z [INFO]  ReferenceTransformer: reference not found: "local.key_vault_private_endpoint_name"
+15:33:37  2022-08-31T19:33:35.662Z [INFO]  ReferenceTransformer: reference not found: "var.location"
+15:33:37  2022-08-31T19:33:35.662Z [INFO]  ReferenceTransformer: reference not found: "local.key_vault_id"
+15:33:37  2022-08-31T19:33:35.662Z [INFO]  ReferenceTransformer: reference not found: "local.key_vault_name"
+15:33:37  2022-08-31T19:33:35.663Z [ERROR] vertex "module.postgressql-flexible-server.data.azurerm_resource_group.postresql_resource_group" error: Error: Resource Group "n-dev-ccoe-frm0-shared-pgserver-pg-server-cac-1" was not found
+15:33:37  2022-08-31T19:33:35.663Z [ERROR] vertex "module.postgressql-flexible-server.data.azurerm_resource_group.postresql_resource_group" error: Error: Resource Group "n-dev-ccoe-frm0-shared-pgserver-pg-server-cac-1" was not found
+15:33:37  2022-08-31T19:33:35.663Z [ERROR] vertex "module.postgressql-flexible-server.data.azurerm_resource_group.postresql_resource_group (expand)" error: Error: Resource Group "n-dev-ccoe-frm0-shared-pgserver-pg-server-cac-1" was not found
+15:33:37  2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "var.managed_identity_access_policy"
+15:33:37  2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "local.key_vault_id"
+15:33:37  2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "var.managed_identity_access_policy"
+15:33:37  2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "var.managed_identity_access_policy"
+15:33:37  2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "var.managed_identity_access_policy"
+15:33:37  2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "var.user_access_policies"
+15:33:37  2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "var.user_access_policies"
+15:33:37  2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:37  2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "var.user_access_policies"
+15:33:37  2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:37  2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "local.key_vault_id"
+15:33:37  2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "var.user_access_policies"
+15:33:37  2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:37  2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "var.user_access_policies"
+15:33:37  2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:37  2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "var.user_access_policies"
+15:33:37  2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "var.user_access_policies"
+15:33:37  2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:37  2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "var.user_access_policies"
+15:33:37  2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:37  2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "var.user_access_policies"
+15:33:37  2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:37  2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "var.user_access_policies"
+15:33:37  2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:37  2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "local.key_vault_id"
+15:33:37  2022-08-31T19:33:35.667Z [INFO]  ReferenceTransformer: reference not found: "var.private_dns_zone_resource_group_name"
+15:33:37  2022-08-31T19:33:35.667Z [INFO]  ReferenceTransformer: reference not found: "local.private_dns_zone_resource_group_name"
+15:33:37  2022-08-31T19:33:35.667Z [INFO]  ReferenceTransformer: reference not found: "var.private_dns_zone_resource_group_name"
+15:33:37  2022-08-31T19:33:35.667Z [INFO]  ReferenceTransformer: reference not found: "local.key_vault_name"
+15:33:37  2022-08-31T19:33:35.667Z [INFO]  ReferenceTransformer: reference not found: "var.private_dns_zone_name"
+15:33:37  2022-08-31T19:33:35.667Z [INFO]  ReferenceTransformer: reference not found: "local.private_dns_zone_name"
+15:33:37  2022-08-31T19:33:35.667Z [INFO]  ReferenceTransformer: reference not found: "var.private_dns_zone_name"
+15:33:37  2022-08-31T19:33:35.670Z [WARN]  Provider "registry.terraform.io/hashicorp/azurerm" produced an invalid plan for module.key_vault.azurerm_private_dns_a_record.keyvault, but we are tolerating it because it is using the legacy plugin SDK.
+15:33:37      The following problems may be the cause of any confusing errors from downstream operations:
+15:33:37        - .records: planned value cty.UnknownVal(cty.Set(cty.String)) does not match config value cty.SetVal([]cty.Value{cty.UnknownVal(cty.String)})
+15:33:37  2022-08-31T19:33:35.717Z [ERROR] vertex "module.postgressql-flexible-server.data.azurerm_resource_group.data_resource_group" error: Error: Resource Group "n-dev-ccoe-frm0-shared-pgserver-pg-data-rg-cac-1" was not found
+15:33:37  2022-08-31T19:33:35.717Z [ERROR] vertex "module.postgressql-flexible-server.data.azurerm_resource_group.data_resource_group" error: Error: Resource Group "n-dev-ccoe-frm0-shared-pgserver-pg-data-rg-cac-1" was not found
+15:33:37  2022-08-31T19:33:35.717Z [ERROR] vertex "module.postgressql-flexible-server.data.azurerm_resource_group.data_resource_group (expand)" error: Error: Resource Group "n-dev-ccoe-frm0-shared-pgserver-pg-data-rg-cac-1" was not found
+15:33:37  2022-08-31T19:33:35.774Z [INFO]  backend/local: plan operation completed
+15:33:37  
+15:33:37  Error: Error: Resource Group "n-dev-ccoe-frm0-shared-pgserver-pg-server-cac-1" was not found
+15:33:37  
+15:33:37    with module.postgressql-flexible-server.data.azurerm_resource_group.postresql_resource_group,
+15:33:37    on module/main_resources.tf line 20, in data "azurerm_resource_group" "postresql_resource_group":
+15:33:37    20: data "azurerm_resource_group" "postresql_resource_group" {
+15:33:37  
+15:33:37  
+15:33:37  Error: Error: Resource Group "n-dev-ccoe-frm0-shared-pgserver-pg-data-rg-cac-1" was not found
+15:33:37  
+15:33:37    with module.postgressql-flexible-server.data.azurerm_resource_group.data_resource_group,
+15:33:37    on module/main_resources.tf line 23, in data "azurerm_resource_group" "data_resource_group":
+15:33:37    23: data "azurerm_resource_group" "data_resource_group" {
+15:33:37  }
+15:33:37  --- FAIL: TestModule (23.82s)
+15:33:37      plan.go:17: 
+15:33:37          	Error Trace:	plan.go:17
+15:33:37          	            				module_test.go:44
+15:33:37          	Error:      	Received unexpected error:
+15:33:37          	            	FatalError{Underlying: error while running command: exit status 1; 2022-08-31T19:33:16.406Z [INFO]  Terraform version: 1.1.3
+15:33:37          	            	2022-08-31T19:33:16.406Z [INFO]  Go runtime version: go1.18.2
+15:33:37          	            	2022-08-31T19:33:16.406Z [INFO]  CLI args: []string{"terraform", "plan", "-input=false", "-lock=false", "-no-color", "-lock=false"}
+15:33:37          	            	2022-08-31T19:33:16.406Z [INFO]  Loading CLI configuration from ./terraform.tfrc
+15:33:37          	            	2022-08-31T19:33:16.415Z [INFO]  CLI command args: []string{"plan", "-input=false", "-lock=false", "-no-color", "-lock=false"}
+15:33:37          	            	2022-08-31T19:33:17.320Z [INFO]  backend/local: starting Plan operation
+15:33:37          	            	2022-08-31T19:33:17.391Z [INFO]  provider: configuring client automatic mTLS
+15:33:37          	            	2022-08-31T19:33:18.552Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: configuring server automatic mTLS: timestamp=2022-08-31T19:33:18.552Z
+15:33:37          	            	2022-08-31T19:33:18.877Z [INFO]  provider: configuring client automatic mTLS
+15:33:37          	            	2022-08-31T19:33:19.002Z [INFO]  provider.terraform-provider-random_v3.1.0_x5: configuring server automatic mTLS: timestamp=2022-08-31T19:33:18.996Z
+15:33:37          	            	2022-08-31T19:33:19.209Z [INFO]  provider: configuring client automatic mTLS
+15:33:37          	            	2022-08-31T19:33:19.352Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Resources for "Administrative Units"..: timestamp=2022-08-31T19:33:19.351Z
+15:33:37          	            	2022-08-31T19:33:19.352Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Data Sources for "Administrative Units"..: timestamp=2022-08-31T19:33:19.352Z
+15:33:37          	            	2022-08-31T19:33:19.352Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Resources for "Applications"..: timestamp=2022-08-31T19:33:19.352Z
+15:33:37          	            	2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Data Sources for "Applications"..: timestamp=2022-08-31T19:33:19.352Z
+15:33:37          	            	2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Resources for "App Role Assignments"..: timestamp=2022-08-31T19:33:19.353Z
+15:33:37          	            	2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Data Sources for "App Role Assignments"..: timestamp=2022-08-31T19:33:19.353Z
+15:33:37          	            	2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Resources for "ConditionalAccess"..: timestamp=2022-08-31T19:33:19.353Z
+15:33:37          	            	2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Data Sources for "ConditionalAccess"..: timestamp=2022-08-31T19:33:19.353Z
+15:33:37          	            	2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Resources for "Directory Roles"..: timestamp=2022-08-31T19:33:19.353Z
+15:33:37          	            	2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Data Sources for "Directory Roles"..: timestamp=2022-08-31T19:33:19.353Z
+15:33:37          	            	2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Resources for "Domains"..: timestamp=2022-08-31T19:33:19.353Z
+15:33:37          	            	2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Data Sources for "Domains"..: timestamp=2022-08-31T19:33:19.353Z
+15:33:37          	            	2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Resources for "Groups"..: timestamp=2022-08-31T19:33:19.353Z
+15:33:37          	            	2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Data Sources for "Groups"..: timestamp=2022-08-31T19:33:19.353Z
+15:33:37          	            	2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Resources for "Invitations"..: timestamp=2022-08-31T19:33:19.353Z
+15:33:37          	            	2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Data Sources for "Invitations"..: timestamp=2022-08-31T19:33:19.353Z
+15:33:37          	            	2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Resources for "Service Principals"..: timestamp=2022-08-31T19:33:19.353Z
+15:33:37          	            	2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Data Sources for "Service Principals"..: timestamp=2022-08-31T19:33:19.353Z
+15:33:37          	            	2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Resources for "Users"..: timestamp=2022-08-31T19:33:19.353Z
+15:33:37          	            	2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:19 [DEBUG] Registering Data Sources for "Users"..: timestamp=2022-08-31T19:33:19.353Z
+15:33:37          	            	2022-08-31T19:33:19.354Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: configuring server automatic mTLS: timestamp=2022-08-31T19:33:19.354Z
+15:33:37          	            	2022-08-31T19:33:19.419Z [INFO]  provider: configuring client automatic mTLS
+15:33:37          	            	2022-08-31T19:33:19.901Z [INFO]  provider.terraform-provider-corepipeline_v2.0.0: configuring server automatic mTLS: timestamp=2022-08-31T19:33:19.898Z
+15:33:37          	            	2022-08-31T19:33:21.832Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:37          	            	2022-08-31T19:33:21.832Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:37          	            	2022-08-31T19:33:21.832Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:37          	            	2022-08-31T19:33:21.832Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:37          	            	2022-08-31T19:33:21.832Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:37          	            	2022-08-31T19:33:21.832Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:37          	            	2022-08-31T19:33:21.832Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:37          	            	2022-08-31T19:33:21.870Z [INFO]  provider: configuring client automatic mTLS
+15:33:37          	            	2022-08-31T19:33:22.004Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: configuring server automatic mTLS: timestamp=2022-08-31T19:33:21.999Z
+15:33:37          	            	2022-08-31T19:33:22.069Z [INFO]  provider: configuring client automatic mTLS
+15:33:37          	            	2022-08-31T19:33:22.248Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: configuring server automatic mTLS: timestamp=2022-08-31T19:33:22.242Z
+15:33:37          	            	2022-08-31T19:33:22.312Z [INFO]  provider: configuring client automatic mTLS
+15:33:37          	            	2022-08-31T19:33:22.363Z [INFO]  provider.terraform-provider-random_v3.1.0_x5: configuring server automatic mTLS: timestamp=2022-08-31T19:33:22.362Z
+15:33:37          	            	2022-08-31T19:33:22.605Z [INFO]  provider: configuring client automatic mTLS
+15:33:37          	            	2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Resources for "Administrative Units"..: timestamp=2022-08-31T19:33:22.648Z
+15:33:37          	            	2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Data Sources for "Administrative Units"..: timestamp=2022-08-31T19:33:22.649Z
+15:33:37          	            	2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Resources for "Applications"..: timestamp=2022-08-31T19:33:22.649Z
+15:33:37          	            	2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Data Sources for "Applications"..: timestamp=2022-08-31T19:33:22.649Z
+15:33:37          	            	2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Resources for "App Role Assignments"..: timestamp=2022-08-31T19:33:22.649Z
+15:33:37          	            	2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Data Sources for "App Role Assignments"..: timestamp=2022-08-31T19:33:22.649Z
+15:33:37          	            	2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Resources for "ConditionalAccess"..: timestamp=2022-08-31T19:33:22.649Z
+15:33:37          	            	2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Data Sources for "ConditionalAccess"..: timestamp=2022-08-31T19:33:22.649Z
+15:33:37          	            	2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Resources for "Directory Roles"..: timestamp=2022-08-31T19:33:22.649Z
+15:33:37          	            	2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Data Sources for "Directory Roles"..: timestamp=2022-08-31T19:33:22.649Z
+15:33:37          	            	2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Resources for "Domains"..: timestamp=2022-08-31T19:33:22.649Z
+15:33:37          	            	2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Data Sources for "Domains"..: timestamp=2022-08-31T19:33:22.649Z
+15:33:37          	            	2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Resources for "Groups"..: timestamp=2022-08-31T19:33:22.650Z
+15:33:37          	            	2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Data Sources for "Groups"..: timestamp=2022-08-31T19:33:22.650Z
+15:33:37          	            	2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Resources for "Invitations"..: timestamp=2022-08-31T19:33:22.650Z
+15:33:37          	            	2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Data Sources for "Invitations"..: timestamp=2022-08-31T19:33:22.650Z
+15:33:37          	            	2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Resources for "Service Principals"..: timestamp=2022-08-31T19:33:22.650Z
+15:33:37          	            	2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Data Sources for "Service Principals"..: timestamp=2022-08-31T19:33:22.650Z
+15:33:37          	            	2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Resources for "Users"..: timestamp=2022-08-31T19:33:22.650Z
+15:33:37          	            	2022-08-31T19:33:22.652Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:22 [DEBUG] Registering Data Sources for "Users"..: timestamp=2022-08-31T19:33:22.650Z
+15:33:37          	            	2022-08-31T19:33:22.663Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: configuring server automatic mTLS: timestamp=2022-08-31T19:33:22.659Z
+15:33:37          	            	2022-08-31T19:33:22.700Z [INFO]  provider: configuring client automatic mTLS
+15:33:37          	            	2022-08-31T19:33:23.029Z [INFO]  provider.terraform-provider-corepipeline_v2.0.0: configuring server automatic mTLS: timestamp=2022-08-31T19:33:23.028Z
+15:33:37          	            	2022-08-31T19:33:24.845Z [INFO]  backend/local: plan calling Plan
+15:33:37          	            	2022-08-31T19:33:24.858Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:37          	            	2022-08-31T19:33:24.858Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:37          	            	2022-08-31T19:33:24.858Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:37          	            	2022-08-31T19:33:24.858Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:37          	            	2022-08-31T19:33:24.859Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:37          	            	2022-08-31T19:33:24.859Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:37          	            	2022-08-31T19:33:24.859Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:37          	            	2022-08-31T19:33:24.987Z [INFO]  provider: configuring client automatic mTLS
+15:33:37          	            	2022-08-31T19:33:25.149Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: configuring server automatic mTLS: timestamp=2022-08-31T19:33:25.142Z
+15:33:37          	            	2022-08-31T19:33:25.193Z [INFO]  provider: configuring client automatic mTLS
+15:33:37          	            	2022-08-31T19:33:25.285Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Resources for "Administrative Units"..: timestamp=2022-08-31T19:33:25.285Z
+15:33:37          	            	2022-08-31T19:33:25.285Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Data Sources for "Administrative Units"..: timestamp=2022-08-31T19:33:25.285Z
+15:33:37          	            	2022-08-31T19:33:25.285Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Resources for "Applications"..: timestamp=2022-08-31T19:33:25.285Z
+15:33:37          	            	2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Data Sources for "Applications"..: timestamp=2022-08-31T19:33:25.291Z
+15:33:37          	            	2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Resources for "App Role Assignments"..: timestamp=2022-08-31T19:33:25.291Z
+15:33:37          	            	2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Data Sources for "App Role Assignments"..: timestamp=2022-08-31T19:33:25.291Z
+15:33:37          	            	2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Resources for "ConditionalAccess"..: timestamp=2022-08-31T19:33:25.291Z
+15:33:37          	            	2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Data Sources for "ConditionalAccess"..: timestamp=2022-08-31T19:33:25.291Z
+15:33:37          	            	2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Resources for "Directory Roles"..: timestamp=2022-08-31T19:33:25.291Z
+15:33:37          	            	2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Data Sources for "Directory Roles"..: timestamp=2022-08-31T19:33:25.291Z
+15:33:37          	            	2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Resources for "Domains"..: timestamp=2022-08-31T19:33:25.291Z
+15:33:37          	            	2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Data Sources for "Domains"..: timestamp=2022-08-31T19:33:25.291Z
+15:33:37          	            	2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Resources for "Groups"..: timestamp=2022-08-31T19:33:25.291Z
+15:33:37          	            	2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Data Sources for "Groups"..: timestamp=2022-08-31T19:33:25.291Z
+15:33:37          	            	2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Resources for "Invitations"..: timestamp=2022-08-31T19:33:25.292Z
+15:33:37          	            	2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Data Sources for "Invitations"..: timestamp=2022-08-31T19:33:25.292Z
+15:33:37          	            	2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Resources for "Service Principals"..: timestamp=2022-08-31T19:33:25.292Z
+15:33:37          	            	2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Data Sources for "Service Principals"..: timestamp=2022-08-31T19:33:25.292Z
+15:33:37          	            	2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Resources for "Users"..: timestamp=2022-08-31T19:33:25.292Z
+15:33:37          	            	2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:25 [DEBUG] Registering Data Sources for "Users"..: timestamp=2022-08-31T19:33:25.292Z
+15:33:37          	            	2022-08-31T19:33:25.294Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: configuring server automatic mTLS: timestamp=2022-08-31T19:33:25.292Z
+15:33:37          	            	2022-08-31T19:33:25.350Z [INFO]  provider: configuring client automatic mTLS
+15:33:37          	            	2022-08-31T19:33:25.562Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: configuring server automatic mTLS: timestamp=2022-08-31T19:33:25.562Z
+15:33:37          	            	2022-08-31T19:33:25.618Z [INFO]  provider: configuring client automatic mTLS
+15:33:37          	            	2022-08-31T19:33:25.647Z [WARN]  ValidateProviderConfig from "provider[\"registry.terraform.io/hashicorp/azurerm\"]" changed the config value, but that value is unused
+15:33:37          	            	2022-08-31T19:33:25.650Z [INFO]  provider.terraform-provider-random_v3.1.0_x5: configuring server automatic mTLS: timestamp=2022-08-31T19:33:25.649Z
+15:33:37          	            	2022-08-31T19:33:25.796Z [INFO]  provider: configuring client automatic mTLS
+15:33:37          	            	2022-08-31T19:33:25.822Z [WARN]  ValidateProviderConfig from "provider[\"registry.terraform.io/hashicorp/azuread\"]" changed the config value, but that value is unused
+15:33:37          	            	2022-08-31T19:33:25.926Z [WARN]  ValidateProviderConfig from "provider[\"registry.terraform.io/hashicorp/azurerm\"].dns_zone" changed the config value, but that value is unused
+15:33:37          	            	2022-08-31T19:33:26.263Z [INFO]  provider.terraform-provider-corepipeline_v2.0.0: configuring server automatic mTLS: timestamp=2022-08-31T19:33:26.262Z
+15:33:37          	            	2022-08-31T19:33:26.322Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: Testing if Service Principal / Client Certificate is applicable for Authentication..: timestamp=2022-08-31T19:33:26.321Z
+15:33:37          	            	2022-08-31T19:33:26.322Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: Testing if Multi Tenant Service Principal / Client Secret is applicable for Authentication..: timestamp=2022-08-31T19:33:26.321Z
+15:33:37          	            	2022-08-31T19:33:26.322Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: Testing if Service Principal / Client Secret is applicable for Authentication..: timestamp=2022-08-31T19:33:26.321Z
+15:33:37          	            	2022-08-31T19:33:26.322Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: Using Service Principal / Client Secret for Authentication: timestamp=2022-08-31T19:33:26.321Z
+15:33:37          	            	2022-08-31T19:33:26.322Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: Getting OAuth config for endpoint https://login.microsoftonline.com with  tenant ****: timestamp=2022-08-31T19:33:26.321Z
+15:33:37          	            	2022-08-31T19:33:26.322Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: Testing if Service Principal / Client Certificate is applicable for Authentication..: timestamp=2022-08-31T19:33:26.322Z
+15:33:37          	            	2022-08-31T19:33:26.322Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: Testing if Multi Tenant Service Principal / Client Secret is applicable for Authentication..: timestamp=2022-08-31T19:33:26.322Z
+15:33:37          	            	2022-08-31T19:33:26.322Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: Testing if Service Principal / Client Secret is applicable for Authentication..: timestamp=2022-08-31T19:33:26.322Z
+15:33:37          	            	2022-08-31T19:33:26.322Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: Using Service Principal / Client Secret for Authentication: timestamp=2022-08-31T19:33:26.322Z
+15:33:37          	            	2022-08-31T19:33:26.322Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: Getting OAuth config for endpoint https://login.microsoftonline.com with  tenant ****: timestamp=2022-08-31T19:33:26.322Z
+15:33:37          	            	2022-08-31T19:33:26.324Z [WARN]  ValidateProviderConfig from "provider[\"rbc.com/api/corepipeline\"]" changed the config value, but that value is unused
+15:33:37          	            	2022-08-31T19:33:26.326Z [WARN]  Provider "registry.terraform.io/hashicorp/random" produced an invalid plan for random_password.pgsql_administrator_password, but we are tolerating it because it is using the legacy plugin SDK.
+15:33:37          	            	    The following problems may be the cause of any confusing errors from downstream operations:
+15:33:37          	            	      - .lower: planned value cty.True for a non-computed attribute
+15:33:37          	            	      - .min_special: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:37          	            	      - .min_upper: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:37          	            	      - .min_lower: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:37          	            	      - .min_numeric: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:37          	            	      - .number: planned value cty.True for a non-computed attribute
+15:33:37          	            	      - .upper: planned value cty.True for a non-computed attribute
+15:33:37          	            	2022-08-31T19:33:26.326Z [WARN]  Provider "registry.terraform.io/hashicorp/random" produced an invalid plan for module.postgressql-flexible-server.random_string.string, but we are tolerating it because it is using the legacy plugin SDK.
+15:33:37          	            	    The following problems may be the cause of any confusing errors from downstream operations:
+15:33:37          	            	      - .lower: planned value cty.True for a non-computed attribute
+15:33:37          	            	      - .min_numeric: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:37          	            	      - .number: planned value cty.True for a non-computed attribute
+15:33:37          	            	      - .min_upper: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:37          	            	      - .min_lower: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:37          	            	      - .min_special: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:37          	            	2022-08-31T19:33:26.327Z [WARN]  Provider "registry.terraform.io/hashicorp/random" produced an invalid plan for module.postgressql-flexible-server.random_string.unique-suffix, but we are tolerating it because it is using the legacy plugin SDK.
+15:33:37          	            	    The following problems may be the cause of any confusing errors from downstream operations:
+15:33:37          	            	      - .lower: planned value cty.True for a non-computed attribute
+15:33:37          	            	      - .min_numeric: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:37          	            	      - .number: planned value cty.True for a non-computed attribute
+15:33:37          	            	      - .min_upper: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:37          	            	      - .min_lower: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:37          	            	      - .min_special: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:37          	            	2022-08-31T19:33:26.327Z [WARN]  Provider "registry.terraform.io/hashicorp/random" produced an invalid plan for module.postgressql-flexible-server.random_password.password, but we are tolerating it because it is using the legacy plugin SDK.
+15:33:37          	            	    The following problems may be the cause of any confusing errors from downstream operations:
+15:33:37          	            	      - .special: planned value cty.True for a non-computed attribute
+15:33:37          	            	      - .upper: planned value cty.True for a non-computed attribute
+15:33:37          	            	      - .number: planned value cty.True for a non-computed attribute
+15:33:37          	            	      - .lower: planned value cty.True for a non-computed attribute
+15:33:37          	            	2022-08-31T19:33:26.330Z [INFO]  provider.terraform-provider-corepipeline_v2.0.0: [INFO] Provisioning new instance of Core Pipeline client,  &{ccoe frm0-shared pgserver vinay-test}
+15:33:37          	            	2022-08-31T19:33:26.330Z [INFO]  provider.terraform-provider-corepipeline_v2.0.0: [INFO] host url:  https://core-pipeline-onboard-frm0-private-qat.canadacentral.aks.nonp.c1.rbc.com/api/v1
+15:33:37          	            	2022-08-31T19:33:26.332Z [WARN]  Provider "registry.terraform.io/hashicorp/random" produced an invalid plan for random_string.string, but we are tolerating it because it is using the legacy plugin SDK.
+15:33:37          	            	    The following problems may be the cause of any confusing errors from downstream operations:
+15:33:37          	            	      - .min_lower: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:37          	            	      - .min_special: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:37          	            	      - .min_upper: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:37          	            	      - .lower: planned value cty.True for a non-computed attribute
+15:33:37          	            	      - .min_numeric: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:37          	            	      - .number: planned value cty.True for a non-computed attribute
+15:33:37          	            	2022-08-31T19:33:26.337Z [INFO]  provider.terraform-provider-corepipeline_v2.0.0: [INFO] acquiring auth token from https://core-pipeline-onboard-frm0-private-qat.canadacentral.aks.nonp.c1.rbc.com/api/v1 /auth/HPoCvfGU4Ijxx2LbQ
+15:33:37          	            	2022-08-31T19:33:26.390Z [INFO]  provider.terraform-provider-corepipeline_v2.0.0: [INFO] api path:  /portfolios/ccoe/app-codes/frm0-shared/apps/frm0-shared/azure?environment=dev
+15:33:37          	            	2022-08-31T19:33:26.390Z [INFO]  provider.terraform-provider-corepipeline_v2.0.0: [INFO] api path:  /portfolios/ccoe/app-codes/frm0-shared/apps/frm0-shared/azure?environment=dev
+15:33:37          	            	2022-08-31T19:33:26.390Z [INFO]  provider.terraform-provider-corepipeline_v2.0.0: [INFO] api path:  /portfolios/ccoe/app-codes/frm0-shared/apps/frm0-shared/azure?environment=dev
+15:33:37          	            	2022-08-31T19:33:26.391Z [INFO]  provider.terraform-provider-corepipeline_v2.0.0: [INFO] api path:  /portfolios/ccoe/app-codes/frm0-shared/apps/frm0-shared/azure?environment=dev
+15:33:37          	            	2022-08-31T19:33:26.844Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: authenticated object ID cache miss, populating with: "3cbfe052-e21b-4a50-9ee3-50ed90e09c71": timestamp=2022-08-31T19:33:26.844Z
+15:33:37          	            	2022-08-31T19:33:26.844Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: Getting OAuth config for endpoint https://login.microsoftonline.com/ with  tenant ****: timestamp=2022-08-31T19:33:26.844Z
+15:33:37          	            	2022-08-31T19:33:26.927Z [INFO]  provider.terraform-provider-azuread_v2.18.0_x5: 2022/08/31 19:33:26 [DEBUG] AzureAD Provider access token claims: {"aud":"https://graph.microsoft.com","iss":"https://sts.windows.net/****/","idp":"https://sts.windows.net/****/","oid":"3cbfe052-e21b-4a50-9ee3-50ed90e09c71","roles":null,"scp":"","sub":"3cbfe052-e21b-4a50-9ee3-50ed90e09c71","tenant_region_scope":"NA","tid":"****","ver":"1.0","app_displayname":"AEO0_N_Platform_Core","appid":"****","idtyp":"app"}: timestamp=2022-08-31T19:33:26.927Z
+15:33:37          	            	2022-08-31T19:33:27.012Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: authenticated object ID cache miss, populating with: "3cbfe052-e21b-4a50-9ee3-50ed90e09c71": timestamp=2022-08-31T19:33:27.009Z
+15:33:37          	            	2022-08-31T19:33:27.012Z [INFO]  provider.terraform-provider-azurerm_v3.5.0_x5: Getting OAuth config for endpoint https://login.microsoftonline.com/ with  tenant ****: timestamp=2022-08-31T19:33:27.009Z
+15:33:37          	            	2022-08-31T19:33:35.430Z [INFO]  ReferenceTransformer: reference not found: "var.location"
+15:33:37          	            	2022-08-31T19:33:35.430Z [INFO]  ReferenceTransformer: reference not found: "local.resource_group_name"
+15:33:37          	            	2022-08-31T19:33:35.430Z [INFO]  ReferenceTransformer: reference not found: "local.default_tags"
+15:33:37          	            	2022-08-31T19:33:35.430Z [INFO]  ReferenceTransformer: reference not found: "var.extra_tags"
+15:33:37          	            	2022-08-31T19:33:35.431Z [INFO]  ReferenceTransformer: reference not found: "local.default_tags"
+15:33:37          	            	2022-08-31T19:33:35.431Z [INFO]  ReferenceTransformer: reference not found: "var.extra_tags"
+15:33:37          	            	2022-08-31T19:33:35.431Z [INFO]  ReferenceTransformer: reference not found: "var.location"
+15:33:37          	            	2022-08-31T19:33:35.431Z [INFO]  ReferenceTransformer: reference not found: "local.resource_group_name"
+15:33:37          	            	2022-08-31T19:33:35.432Z [INFO]  ReferenceTransformer: reference not found: "var.leaf_resources"
+15:33:37          	            	2022-08-31T19:33:35.432Z [INFO]  ReferenceTransformer: reference not found: "var.leaf_resources"
+15:33:37          	            	2022-08-31T19:33:35.433Z [INFO]  ReferenceTransformer: reference not found: "var.leaf_resources"
+15:33:37          	            	2022-08-31T19:33:35.433Z [INFO]  ReferenceTransformer: reference not found: "var.leaf_resources"
+15:33:37          	            	2022-08-31T19:33:35.433Z [INFO]  ReferenceTransformer: reference not found: "var.leaf_resources"
+15:33:37          	            	2022-08-31T19:33:35.433Z [INFO]  ReferenceTransformer: reference not found: "var.leaf_resources"
+15:33:37          	            	2022-08-31T19:33:35.433Z [INFO]  ReferenceTransformer: reference not found: "var.leaf_resources"
+15:33:37          	            	2022-08-31T19:33:35.444Z [INFO]  ReferenceTransformer: reference not found: "var.resource_group_name"
+15:33:37          	            	2022-08-31T19:33:35.447Z [WARN]  Provider "registry.terraform.io/hashicorp/random" produced an invalid plan for module.key_vault.random_string.string, but we are tolerating it because it is using the legacy plugin SDK.
+15:33:37          	            	    The following problems may be the cause of any confusing errors from downstream operations:
+15:33:37          	            	      - .min_lower: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:37          	            	      - .min_special: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:37          	            	      - .min_upper: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:37          	            	      - .lower: planned value cty.True for a non-computed attribute
+15:33:37          	            	      - .min_numeric: planned value cty.NumberIntVal(0) for a non-computed attribute
+15:33:37          	            	      - .number: planned value cty.True for a non-computed attribute
+15:33:37          	            	2022-08-31T19:33:35.448Z [INFO]  ReferenceTransformer: reference not found: "local.private_endpoint_subnet_name"
+15:33:37          	            	2022-08-31T19:33:35.448Z [INFO]  ReferenceTransformer: reference not found: "var.virtual_network_resource_group_name"
+15:33:37          	            	2022-08-31T19:33:35.448Z [INFO]  ReferenceTransformer: reference not found: "var.virtual_network_name"
+15:33:37          	            	2022-08-31T19:33:35.454Z [INFO]  ReferenceTransformer: reference not found: "local.key_vault_name"
+15:33:37          	            	2022-08-31T19:33:35.454Z [INFO]  ReferenceTransformer: reference not found: "var.sku"
+15:33:37          	            	2022-08-31T19:33:35.454Z [INFO]  ReferenceTransformer: reference not found: "local.tags"
+15:33:37          	            	2022-08-31T19:33:35.454Z [INFO]  ReferenceTransformer: reference not found: "var.location"
+15:33:37          	            	2022-08-31T19:33:35.454Z [INFO]  ReferenceTransformer: reference not found: "var.network_acls_enabled"
+15:33:37          	            	2022-08-31T19:33:35.454Z [INFO]  ReferenceTransformer: reference not found: "local.public_ip_allowlist"
+15:33:37          	            	2022-08-31T19:33:35.454Z [INFO]  ReferenceTransformer: reference not found: "var.whitelist_subnet_ids"
+15:33:37          	            	2022-08-31T19:33:35.454Z [INFO]  ReferenceTransformer: reference not found: "local.default_aks_subnet_ids"
+15:33:37          	            	2022-08-31T19:33:35.454Z [INFO]  ReferenceTransformer: reference not found: "local.default_tfe_subnet_ids"
+15:33:37          	            	2022-08-31T19:33:35.662Z [INFO]  ReferenceTransformer: reference not found: "local.resource_group_name"
+15:33:37          	            	2022-08-31T19:33:35.662Z [INFO]  ReferenceTransformer: reference not found: "local.key_vault_private_endpoint_name"
+15:33:37          	            	2022-08-31T19:33:35.662Z [INFO]  ReferenceTransformer: reference not found: "var.location"
+15:33:37          	            	2022-08-31T19:33:35.662Z [INFO]  ReferenceTransformer: reference not found: "local.key_vault_id"
+15:33:37          	            	2022-08-31T19:33:35.662Z [INFO]  ReferenceTransformer: reference not found: "local.key_vault_name"
+15:33:37          	            	2022-08-31T19:33:35.663Z [ERROR] vertex "module.postgressql-flexible-server.data.azurerm_resource_group.postresql_resource_group" error: Error: Resource Group "n-dev-ccoe-frm0-shared-pgserver-pg-server-cac-1" was not found
+15:33:37          	            	2022-08-31T19:33:35.663Z [ERROR] vertex "module.postgressql-flexible-server.data.azurerm_resource_group.postresql_resource_group" error: Error: Resource Group "n-dev-ccoe-frm0-shared-pgserver-pg-server-cac-1" was not found
+15:33:37          	            	2022-08-31T19:33:35.663Z [ERROR] vertex "module.postgressql-flexible-server.data.azurerm_resource_group.postresql_resource_group (expand)" error: Error: Resource Group "n-dev-ccoe-frm0-shared-pgserver-pg-server-cac-1" was not found
+15:33:37          	            	2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "var.managed_identity_access_policy"
+15:33:37          	            	2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "local.key_vault_id"
+15:33:37          	            	2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "var.managed_identity_access_policy"
+15:33:37          	            	2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "var.managed_identity_access_policy"
+15:33:37          	            	2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "var.managed_identity_access_policy"
+15:33:37          	            	2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "var.user_access_policies"
+15:33:37          	            	2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "var.user_access_policies"
+15:33:37          	            	2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:37          	            	2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "var.user_access_policies"
+15:33:37          	            	2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:37          	            	2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "local.key_vault_id"
+15:33:37          	            	2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "var.user_access_policies"
+15:33:37          	            	2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:37          	            	2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "var.user_access_policies"
+15:33:37          	            	2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:37          	            	2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "var.user_access_policies"
+15:33:37          	            	2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "var.user_access_policies"
+15:33:37          	            	2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:37          	            	2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "var.user_access_policies"
+15:33:37          	            	2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:37          	            	2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "var.user_access_policies"
+15:33:37          	            	2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:37          	            	2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "var.user_access_policies"
+15:33:37          	            	2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "count.index"
+15:33:37          	            	2022-08-31T19:33:35.663Z [INFO]  ReferenceTransformer: reference not found: "local.key_vault_id"
+15:33:37          	            	2022-08-31T19:33:35.667Z [INFO]  ReferenceTransformer: reference not found: "var.private_dns_zone_resource_group_name"
+15:33:37          	            	2022-08-31T19:33:35.667Z [INFO]  ReferenceTransformer: reference not found: "local.private_dns_zone_resource_group_name"
+15:33:37          	            	2022-08-31T19:33:35.667Z [INFO]  ReferenceTransformer: reference not found: "var.private_dns_zone_resource_group_name"
+15:33:37          	            	2022-08-31T19:33:35.667Z [INFO]  ReferenceTransformer: reference not found: "local.key_vault_name"
+15:33:37          	            	2022-08-31T19:33:35.667Z [INFO]  ReferenceTransformer: reference not found: "var.private_dns_zone_name"
+15:33:37          	            	2022-08-31T19:33:35.667Z [INFO]  ReferenceTransformer: reference not found: "local.private_dns_zone_name"
+15:33:37          	            	2022-08-31T19:33:35.667Z [INFO]  ReferenceTransformer: reference not found: "var.private_dns_zone_name"
+15:33:37          	            	2022-08-31T19:33:35.670Z [WARN]  Provider "registry.terraform.io/hashicorp/azurerm" produced an invalid plan for module.key_vault.azurerm_private_dns_a_record.keyvault, but we are tolerating it because it is using the legacy plugin SDK.
+15:33:37          	            	    The following problems may be the cause of any confusing errors from downstream operations:
+15:33:37          	            	      - .records: planned value cty.UnknownVal(cty.Set(cty.String)) does not match config value cty.SetVal([]cty.Value{cty.UnknownVal(cty.String)})
+15:33:37          	            	2022-08-31T19:33:35.717Z [ERROR] vertex "module.postgressql-flexible-server.data.azurerm_resource_group.data_resource_group" error: Error: Resource Group "n-dev-ccoe-frm0-shared-pgserver-pg-data-rg-cac-1" was not found
+15:33:37          	            	2022-08-31T19:33:35.717Z [ERROR] vertex "module.postgressql-flexible-server.data.azurerm_resource_group.data_resource_group" error: Error: Resource Group "n-dev-ccoe-frm0-shared-pgserver-pg-data-rg-cac-1" was not found
+15:33:37          	            	2022-08-31T19:33:35.717Z [ERROR] vertex "module.postgressql-flexible-server.data.azurerm_resource_group.data_resource_group (expand)" error: Error: Resource Group "n-dev-ccoe-frm0-shared-pgserver-pg-data-rg-cac-1" was not found
+15:33:37          	            	2022-08-31T19:33:35.774Z [INFO]  backend/local: plan operation completed
+15:33:37          	            	
+15:33:37          	            	Error: Error: Resource Group "n-dev-ccoe-frm0-shared-pgserver-pg-server-cac-1" was not found
+15:33:37          	            	
+15:33:37          	            	  with module.postgressql-flexible-server.data.azurerm_resource_group.postresql_resource_group,
+15:33:37          	            	  on module/main_resources.tf line 20, in data "azurerm_resource_group" "postresql_resource_group":
+15:33:37          	            	  20: data "azurerm_resource_group" "postresql_resource_group" {
+15:33:37          	            	
+15:33:37          	            	
+15:33:37          	            	Error: Error: Resource Group "n-dev-ccoe-frm0-shared-pgserver-pg-data-rg-cac-1" was not found
+15:33:37          	            	
+15:33:37          	            	  with module.postgressql-flexible-server.data.azurerm_resource_group.data_resource_group,
+15:33:37          	            	  on module/main_resources.tf line 23, in data "azurerm_resource_group" "data_resource_group":
+15:33:37          	            	  23: data "azurerm_resource_group" "data_resource_group" {
+15:33:37          	            	}
+15:33:37          	Test:       	TestModule
+15:33:37  FAIL
+15:33:37  exit status 1
+15:33:37  FAIL	rbcgithub.fg.rbc.com/FRM0-Shared/terraform-azurerm-postgresql-flexible-server	24.138s

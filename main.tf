@@ -274,3 +274,13 @@ module "pgfs_database" {
  databases_collation = { mydatabase = "en_US.UTF8" }
  databases_charset   = { mydatabase = "UTF8" }
 }
+  
+  resource "azurerm_postgresql_flexible_server_database" "postgresql_flexible_db" {
+    for_each = toset(var.databases_names)
+    name      = each.value
+    server_id = var.server_id
+    charset   = lookup(var.databases_charset, each.value, "UTF8")
+    collation = lookup(var.databases_collation, each.value, "en_US.UTF8")
+    # charset   = var.charset
+    # collation = var.collation
+}

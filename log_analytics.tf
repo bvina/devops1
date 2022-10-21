@@ -53,3 +53,38 @@ output "log_analytics_workspace" {
   value       = azurerm_log_analytics_workspace.law.name
 }
 
+
+variable "databases" {
+  type = list(object({
+    name = string
+    charset = string
+    collation = string
+  }))
+}
+
+resource "azurerm_postgresql_flexible_server_database" "postgresql_flexible_db" {
+    for_each = { for db in var.databases : db.name => db }
+    name      = each.value.name
+    server_id = var.server_id
+    charset   = each.value.charset
+    collation = each.value.collation
+}
+
+module "pgfs_database" {
+ source = "./module/modules/database"
+ server_id = module.postgressql-flexible-server.id
+ database= [
+    {
+        name= "test",
+        charset= "UTF8",
+        collation= "en_US.UTF8"
+    },
+    {
+        name= "test2",
+        charset= "UTF8",
+        collation= "en_US.UTF8"
+    }
+]
+}
+
+

@@ -89,3 +89,38 @@ variable "servicebus_namespaces_queues" {
     }
   }
 }
+
+
+      queues = {
+        queue1 = {
+          auto_delete_on_idle                     = "PT10M"
+          dead_lettering_on_message_expiration    = false
+          default_message_ttl                     = "PT10M"
+          duplicate_detection_history_time_window = "PT10M"
+          enable_batched_operations               = true
+          enable_express                          = false
+          enable_partitioning                     = false
+          lock_duration                           = "PT1M"
+          max_delivery_count                      = 10
+          max_size_in_megabytes                   = "1024"
+          requires_duplicate_detection            = false
+          requires_session                        = false
+          status                                  = "Active"
+          reader                                  = true
+          manage                                  = false
+          sender                                  = false
+        }
+      }
+      topics = {
+        topic1 = {
+          auto_delete_on_idle                     = "PT10M"
+          default_message_ttl                     = "PT10M"
+          duplicate_detection_history_time_window = "PT10M"
+          enable_express                          = true
+          max_delivery_count                      = 1
+          max_size_in_megabytes                   = "1024"
+          status                                  = "Active"
+          reader                                  = false
+          sender                                  = false
+          manage                                  = false
+        }

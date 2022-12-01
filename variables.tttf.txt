@@ -1,0 +1,66 @@
+ //Logging Export
+  cl_vm_eventhub_name = "vm-diagnostics"
+  cl_sas_policy_name  = "${data.azurerm_subscription.current.display_name}-vm-diagnostics-AuthorizationRuleSend"
+  cl_eventhub_rg_name = {
+    e = "n-nonp-ccoe-centralizedlogging-ehn-rg-${local.location_short}-1"
+    n = "n-nonp-ccoe-centralizedlogging-ehn-rg-${local.location_short}-1"
+    p = "p-prod-ccoe-centralizedlogging-ehn-rg-${local.location_short}-1"
+  }
+
+  cl_eventhub_namespace_name = {
+    e = {
+      canadacentral = "${data.azurerm_subscription.current.display_name}-cmehvp26i7u3c"
+      canadaeast    = "${data.azurerm_subscription.current.display_name}-warjoqkmy42bw"
+    }
+    n = {
+      canadacentral = "${data.azurerm_subscription.current.display_name}-cmehvp26i7u3c"
+      canadaeast    = "${data.azurerm_subscription.current.display_name}-warjoqkmy42bw"
+    }
+    p = {
+      canadacentral = "${data.azurerm_subscription.current.display_name}-fkzl4sddp7rne"
+      canadaeast    = "${data.azurerm_subscription.current.display_name}-qjs7rzekdu7yu"
+    }
+  }
+
+  cl_subscription = {
+    e = {
+      name = "n0002ret"
+      id   = "4271e2c7-639d-4b0d-82e3-32fe30b835d9"
+    }
+    n = {
+      name = "n0002ret"
+      id   = "4271e2c7-639d-4b0d-82e3-32fe30b835d9"
+    }
+    p = {
+      name = "p0002ret"
+      id   = "e4fbe4e5-c037-4eca-819e-29f472564db6"
+    }
+  }
+
+}
+
+
+
+varablrd:
+variable "logging_export_config" {
+  type = object(
+    {
+        storage_account_name          = string
+        storage_account_rg_name       = string
+        data_sources                  = list(string)
+    }
+  )
+  default = null
+  description = <<EOT
+  Logging Export Extension configuration to export VM OS and Application Logs to Platform Centralized Logging Eventhubs.
+  The logs will accessible in Splunk Enterise.
+  storage_account_name: is used to configure the Azure Diagnostics Agent. 
+    This storage will not be used to retain logs and it's only a requirement for the agent configuration.
+    The Storage Account must whitelist VM Subnet resource ID.
+  storage_account_rg_name: Storage account Resource Group name.
+  data_sources: 
+    This field contains log data sources to be exported to Eventhubs. 
+    For Linux it would be a list of Log file paths e.g. "/var/log/messages". Apllication log must be stored under /var/log/ directory.  Audit and Syslogs are collected by default. Any additional log path passed by the user will be added to the config.
+    For Windows it would be a list of Windows Event Log data sources to collect and export logs files according to MS documentation: https://learn.microsoft.com/en-us/azure/azure-monitor/agents/diagnostics-extension-schema-windows#windowseventlog-element
+  EOT
+}
